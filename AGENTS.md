@@ -15,3 +15,4 @@ Reglas obligatorias (detalle en `REGLAS-DEL-CANAL.md`):
 9. Cada vídeo en su carpeta con fecha dentro de `videos/`.
 10. Actualiza `ESTADO.md` en tareas largas y avisa a Luis al empezar, al terminar y si algo falla.
 11. Nunca subas al repo `credenciales/`, `herramientas/claves-stock.txt`, tokens ni material pesado.
+12. Planos con IA: Veo (Gemini) solo para escenas concretas; reglas, cuota y registro en `docs/veo.md`. Archivar cada clip con `herramientas/veo/archivar.py`.
