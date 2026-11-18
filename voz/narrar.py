@@ -12,7 +12,7 @@ Uso:
 import argparse, json, os, subprocess, time, wave
 import numpy as np
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 os.environ["HF_HOME"] = f"{RAIZ}/voz/modelos"
 MODELO = "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit"
 VOZ = "ryan"

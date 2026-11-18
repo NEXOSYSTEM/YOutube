@@ -4,8 +4,10 @@ Reglas fijadas por Luis. Se aplican a todos los vídeos (largos y Shorts). Últi
 
 ## Proceso
 
+0. **Ficha del canal:** antes de proponer temas o escribir guiones, títulos o miniaturas, se lee `ficha-del-canal.md` (público, tono, pilares y formato).
+0b. **Radar de tendencias 3 veces por semana** (lunes, miércoles y viernes a las 9:00, tarea del Mac): `investigacion/radar.py` deja `investigacion/AAAA-MM-DD-radar.md` con lo que despega en el nicho. Las ideas de la semana salen de ahí y las elige Luis.
 1. **Guiones antes del vídeo:** Luis ve y aprueba los guiones antes de que se desarrolle ningún vídeo. Sin su «sí» directo no se hace el render final; solo pruebas de estilo de 20–30 s.
-2. **Nada se sube a YouTube** sin que Luis lo pida. Los vídeos se quedan en `videos/<fecha>-<pieza>/`.
+2. **Nada se sube a YouTube** sin que Luis lo pida. Cuando lo pida, se usa `subida/programar.py` (sube en privado y programa la publicación) y a las 48 h `subida/informe48h.py` deja el resultado en `informes/`. Los vídeos se quedan en `videos/<fecha>-<pieza>/`.
 3. **Una carpeta por vídeo, con fecha:** `videos/AAAA-MM-DD-largo-<tema>/` y `videos/AAAA-MM-DD-short-<tema>/`. Cada una lleva el mp4, el `.srt`, `miniatura.jpg`, `descripcion.txt` (con capítulos y créditos), `comentario-creditos.txt` y `etiquetas.txt`. Las pruebas van en `videos/AAAA-MM-DD-pruebas/`.
 3b. **Avisar siempre de en qué punto está el trabajo.** `ESTADO.md`, en la raíz del proyecto, se reescribe en cada paso y cada 30 s con la fase, el vídeo, el %, la hora de inicio, la hora estimada de fin, la última actualización y el estado (EN MARCHA, TERMINADO, ERROR o ESPERANDO A LUIS). macOS muestra una notificación al terminar cada vídeo y si algo falla. Claude avisa al empezar y al terminar cada fase larga (con hora estimada) y cada 15 min mientras siga en marcha.
 4. **Datos verificados:** antes del render se comprueban los datos dudosos del guion. Si alguno no tiene fuente fiable, se propone otra frase a Luis.

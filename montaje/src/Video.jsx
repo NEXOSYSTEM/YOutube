@@ -1,5 +1,6 @@
 import React, { createContext, useContext } from "react";
 export const PostCtx = createContext(false);
+export const CapasCtx = createContext(false); // true: solo rótulos/subtítulos/gráficos (la base de vídeo la monta ffmpeg)
 import { AbsoluteFill, Sequence, Audio, OffthreadVideo, staticFile, useCurrentFrame, interpolate } from "remotion";
 import { tema } from "./tema";
 import { Media, Entrada, Acabado, Rotulo, Puesto, Ficha, Circulo, SubtitulosLargo, SubtitulosShort, Sfx, clamp, C } from "./base";
@@ -44,6 +45,7 @@ const Efectos = ({ sc }) => {
 const Escena = ({ sc, vertical }) => {
   const f = useCurrentFrame();
   const post = useContext(PostCtx);
+  const soloCapas = useContext(CapasCtx);
   const textInGraphic = ["black"].includes(sc.graphic);
   const blur = sc.blur ? 4 + 4 * Math.sin(f / 7) : 0;
   return (
@@ -51,7 +53,7 @@ const Escena = ({ sc, vertical }) => {
       <AbsoluteFill style={{ filter: `${post ? "" : tema.grade}${blur ? ` blur(${blur}px)` : ""}` || undefined }}>
         {sc.graphic && sc.graphic !== "step" ? <Grafico sc={sc} vertical={vertical} /> : null}
         {sc.graphic === "step" ? <Grafico sc={sc} vertical={vertical} /> : null}
-        {!sc.graphic && sc.shots.map((sh, i) => {
+        {!sc.graphic && !soloCapas && sc.shots.map((sh, i) => {
           const from = i === 0 ? 0 : sh.from - (sh.trans === "cut" ? 0 : OVERLAP);
           const len = sh.len + (sh.from - from) + (i === sc.shots.length - 1 ? 0 : 0);
           return (
@@ -90,25 +92,27 @@ const Bloque = ({ b, vertical }) => (
 );
 
 // ---------- Vídeo largo / prueba (16:9) ----------
-export const Largo = ({ plan, musica, post = false }) => (
-  <PostCtx.Provider value={post}><LargoIn plan={plan} musica={musica} post={post} /></PostCtx.Provider>
+export const Largo = ({ plan, musica, post = false, soloCapas = false }) => (
+  <PostCtx.Provider value={post || soloCapas}><CapasCtx.Provider value={soloCapas}>
+    <LargoIn plan={plan} musica={soloCapas ? null : musica} post={post || soloCapas} soloCapas={soloCapas} />
+  </CapasCtx.Provider></PostCtx.Provider>
 );
-const LargoIn = ({ plan, musica, post }) => {
+const LargoIn = ({ plan, musica, post, soloCapas }) => {
   const f = useCurrentFrame();
   const end = plan.blocks.length ? plan.blocks[plan.blocks.length - 1] : null;
   const endF = end ? end.from + end.len : 0;
   return (
-    <AbsoluteFill style={{ background: C.fondo }}>
+    <AbsoluteFill style={{ background: soloCapas ? "transparent" : C.fondo }}>
       {plan.blocks.map((b, i) => (
         <Sequence key={i} from={b.from} durationInFrames={b.len}>
-          {b.video ? <OffthreadVideo src={staticFile(b.video)} /> : <>
+          {b.video ? (soloCapas ? null : <OffthreadVideo src={staticFile(b.video)} />) : <>
             <Bloque b={b} />
             <Audio src={staticFile(b.audio)} endAt={b.audioLen}
               volume={(fr) => (b.cut ? interpolate(fr, [b.audioLen - 12, b.audioLen], [1, 0], clamp) : 1)} />
           </>}
         </Sequence>
       ))}
-      <Acabado sinVineta={post} />
+      {!soloCapas && <Acabado sinVineta={post} />}
       <SubtitulosLargo captions={plan.captions} />
       <Sfx list={plan.sfx} />
       {plan.credits && plan.credits.length > 0 && (

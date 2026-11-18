@@ -6,8 +6,9 @@ Salida: material/2026-11-18-semana-01/<carpeta>/ + _catalogo.json
 """
 import html, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
-MAT = f"{RAIZ}/material/2026-11-18-semana-01"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import semana as S  # rutas de la semana
+MAT = S.MAT
 ESC = json.load(open(f"{RAIZ}/montaje/src/data/escenas.json", encoding="utf-8"))
 sys.path.insert(0, "")
 import imageio_ffmpeg  # del venv de voz

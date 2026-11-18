@@ -1,0 +1,6 @@
+# Copia este archivo como montaje/.npmrc y cambia <RAÍZ> por la ruta del proyecto en tu Mac
+save-exact=true
+cache=<RAÍZ>/herramientas/.npm-cache
+update-notifier=false
+fund=false
+audit=false

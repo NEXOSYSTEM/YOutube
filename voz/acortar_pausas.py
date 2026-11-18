@@ -3,10 +3,11 @@ Recorta silencios del principio/fin y deja cada pausa interna larga en `--pausa`
 hace falta para llegar a `--objetivo` ppm). Apunta en duraciones.json los segundos recortados para que
 montaje/scripts/comprobar.py siga verificando: final = crudo/1,25 − pausas recortadas.
 Uso: acortar_pausas.py --salida audio/... [--objetivo 155] nombre ..."""
+import os
 import argparse, json, wave
 import numpy as np
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
 def lee(p):
     with wave.open(p) as w:

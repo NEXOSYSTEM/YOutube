@@ -3,11 +3,12 @@
 - fondo-short.wav: 45 s, algo más luminosa y con más pulso (para Shorts, muy baja)
 Se exportan a −14 LUFS; el montaje las pone a ≈ −22 dB (largo) y ≈ −25 dB (Shorts) bajo la voz.
 """
+import os
 import json, subprocess, sys, wave
 import numpy as np
 import imageio_ffmpeg
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 OUT = f"{RAIZ}/montaje/public/musica"
 FF = imageio_ffmpeg.get_ffmpeg_exe()
 SR = 48000

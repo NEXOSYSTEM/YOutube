@@ -1,8 +1,9 @@
 """Mezcla la banda sonora del largo directamente desde plan.json (sin pasar por Chrome): narración, intro, música y efectos.
 Mismos volúmenes que la composición de Remotion. Salida: WAV 48 kHz estéreo. Uso: mezcla_audio.py <clave-plan> salida.wav"""
+import os
 import json, subprocess, sys, wave
 import numpy as np, imageio_ffmpeg
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"; PUB = f"{RAIZ}/montaje/public"; FF = imageio_ffmpeg.get_ffmpeg_exe()
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")); PUB = f"{RAIZ}/montaje/public"; FF = imageio_ffmpeg.get_ffmpeg_exe()
 SR, FPS = 48000, 30
 clave, out = sys.argv[1], sys.argv[2]
 PL = json.load(open(f"{RAIZ}/montaje/src/data/plan.json")); plan = PL[clave]; FPS = PL.get("fps", 30)

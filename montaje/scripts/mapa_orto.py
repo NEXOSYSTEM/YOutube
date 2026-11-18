@@ -9,7 +9,7 @@ import json, os, subprocess
 import numpy as np
 import imageio_ffmpeg
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 SRC = f"{RAIZ}/material/2026-11-18-semana-01/mapas/01_land_ocean_ice_2048_jpg.jpg"
 OUT = f"{RAIZ}/montaje/public/intro"
 FF = imageio_ffmpeg.get_ffmpeg_exe()

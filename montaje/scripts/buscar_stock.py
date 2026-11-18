@@ -3,10 +3,10 @@ Las claves se leen de herramientas/claves-stock.txt (PEXELS=… / PIXABAY=…); 
 Licencias: Pexels License y Pixabay Content License (uso comercial sin atribución obligatoria; se acredita igualmente).
 """
 import json, os, re, subprocess, sys, time, urllib.parse, urllib.request
-sys.path.insert(0, "/Users/luis/Desktop/Youtube/Alucinateconelmundo/montaje/scripts")
+RAIZ = B.RAIZ
+sys.path.insert(0, f"{RAIZ}/montaje/scripts")
 import buscar_material as B
 
-RAIZ = B.RAIZ
 CLAVES = {}
 for l in open(f"{RAIZ}/herramientas/claves-stock.txt", encoding="utf-8"):
     if "=" in l:

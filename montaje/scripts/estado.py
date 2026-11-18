@@ -12,7 +12,7 @@ Si la última actualización tiene más de 3 minutos y no está TERMINADO, el pr
 import json, os, re, sys, time
 from datetime import datetime, timedelta
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 J = f"{RAIZ}/montaje/.estado.json"
 MD = f"{RAIZ}/ESTADO.md"
 

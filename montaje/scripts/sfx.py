@@ -1,9 +1,11 @@
 """Efectos de sonido sintetizados desde cero (obra propia, sin licencias de terceros)."""
 import os, wave
 import numpy as np
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+
 
 SR = 48000
-OUT = "/Users/luis/Desktop/Youtube/Alucinateconelmundo/montaje/public/sfx"
+OUT = f"{RAIZ}/montaje/public/sfx"
 rng = np.random.default_rng(7)
 
 

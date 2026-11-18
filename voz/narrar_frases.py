@@ -8,7 +8,7 @@ Uso: voz/.venv/bin/python voz/narrar_frases.py --textos <dir> --salida <dir> [no
 import argparse, json, os, re, subprocess, wave
 import numpy as np
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 os.environ["HF_HOME"] = f"{RAIZ}/voz/modelos"
 os.environ["HF_HUB_OFFLINE"] = "1"  # modelos ya descargados: sin conexión
 MODELO = "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit"

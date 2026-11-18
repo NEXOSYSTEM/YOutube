@@ -1,9 +1,10 @@
 """Sonido de la intro corta (3 s), con los mismos sintetizadores que la intro larga (sonido_intro.py).
 Salida: logo/intro-2026-11-18/intro-lupa-corta.wav e intro-lupa-corta.mp4"""
+import os
 import json, re, subprocess, wave
 import numpy as np
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 src = open(f"{RAIZ}/montaje/scripts/sonido_intro.py", encoding="utf-8").read()
 G = {"__name__": "sonido_lib"}
 exec(src[: src.index("# ---------- 3) Mezcla")], G)  # solo tiempos + sintetizadores, sin mezclar

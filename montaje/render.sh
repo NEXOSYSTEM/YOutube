@@ -2,7 +2,7 @@
 # Renderiza una composición y normaliza el audio a −14 LUFS (estándar de YouTube).
 # Uso: ./render.sh <Composición> <salida.mp4>     p. ej. ./render.sh Largo ../videos/2026-11-18-semana-01/largo-peces-venenosos.mp4
 set -e
-R=/Users/luis/Desktop/Youtube/Alucinateconelmundo
+R=${ALUCINATE_RAIZ:-${0:A:h:h}}  # raíz del proyecto
 export PATH=$R/herramientas/node/bin:$PATH npm_config_cache=$R/herramientas/.npm-cache
 FF=$($R/voz/.venv/bin/python -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())")
 cd $R/montaje

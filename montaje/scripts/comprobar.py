@@ -4,10 +4,11 @@ Sale con código 1 (y el render se detiene) si:
   1) algún audio de narración no está a x1,25 real (final = crudo / 1,25 ± 1 %) o el montaje lo recorta/estira;
   2) el porcentaje de vídeo en los planos baja del 70 % (los gráficos propios no cuentan).
 """
+import os
 import json, sys, wave
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
-FPS = json.load(open("/Users/luis/Desktop/Youtube/Alucinateconelmundo/montaje/src/data/plan.json")).get("fps", 30)
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+FPS = json.load(open(f"{RAIZ}/montaje/src/data/plan.json")).get("fps", 30)
 MIN_VIDEO = 0.70
 
 comp = sys.argv[1]
@@ -15,7 +16,8 @@ clave = {"Largo": "largo", "Prueba": "prueba", "Short01": "short01", "Short02": 
 if not clave:
     print(f"(sin comprobaciones para {comp})"); sys.exit(0)
 plan = json.load(open(f"{RAIZ}/montaje/src/data/plan.json", encoding="utf-8"))[clave]
-dur = json.load(open(f"{RAIZ}/audio/2026-11-18-semana-01/duraciones.json", encoding="utf-8"))
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import semana as S  # rutas de la semana
+dur = json.load(open(f"{S.AUD}/duraciones.json", encoding="utf-8"))
 errores = []
 
 # 1) Voz a x1,25 real y sin estirar
@@ -26,7 +28,7 @@ for b in plan["blocks"]:
     d = dur.get(nombre)
     if not d:
         errores.append(f"{nombre}: no hay registro de duración cruda (generar con voz/narrar.py)"); continue
-    with wave.open(f"{RAIZ}/audio/2026-11-18-semana-01/{nombre}.wav") as w:
+    with wave.open(f"{S.AUD}/{nombre}.wav") as w:
         real = w.getnframes() / w.getframerate()
     esperado = d["crudo_s"] / 1.25 - d.get("pausas_recortadas_s", 0)  # pausas acortadas sin tocar la velocidad
     if abs(real - esperado) / esperado > 0.01:

@@ -9,9 +9,10 @@ Salida: montaje/src/data/tiempos.json y los .srt en videos/2026-11-18-semana-01/
 import json, os, re, wave
 import numpy as np
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
-TXT = f"{RAIZ}/guiones/2026-11-18-semana-01/textos-voz"
-AUD = f"{RAIZ}/audio/2026-11-18-semana-01"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import semana as S  # rutas de la semana
+TXT = S.TXT
+AUD = S.AUD
 OUTV = f"{RAIZ}/videos/2026-11-18-pruebas"  # los .srt definitivos los escribe plan.py en la carpeta de cada vídeo
 GAP = 0.3  # silencio entre bloques del vídeo largo
 MAXC = 44  # caracteres por frase (≈ 2 líneas cortas en vertical, 1 línea en horizontal)

@@ -2,15 +2,16 @@
 YouTube limita la descripción a 5.000 caracteres: los créditos se agrupan por autor y licencia
 («Autor · CC BY 4.0 · vía Wikimedia Commons»). La lista completa con enlaces va en comentario-creditos.txt
 para fijarla como comentario, y en material/2026-11-18-semana-01/creditos.md."""
+import os
 import json, re, shutil
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
-FPS = json.load(open("/Users/luis/Desktop/Youtube/Alucinateconelmundo/montaje/src/data/plan.json")).get("fps", 30)
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+FPS = json.load(open(f"{RAIZ}/montaje/src/data/plan.json")).get("fps", 30)
 PLAN = json.load(open(f"{RAIZ}/montaje/src/data/plan.json", encoding="utf-8"))
-CAT = json.load(open(f"{RAIZ}/material/2026-11-18-semana-01/_catalogo.json", encoding="utf-8"))["items"]
-CARP = {"largo": "2026-11-18-largo-peces-venenosos", "short01": "2026-11-18-short-pez-piedra",
-        "short02": "2026-11-18-short-pez-arana", "short03": "2026-11-18-short-ornitorrinco"}
-MINI = {"largo": "largo-peces-venenosos.jpg", "short01": "short01.jpg", "short02": "short02.jpg", "short03": "short03.jpg"}
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import semana as S  # rutas de la semana
+CAT = json.load(open(f"{S.MAT}/_catalogo.json", encoding="utf-8"))["items"]
+CARP = S.CARP
+MINI = S.MINI
 
 def ts(fr):
     s = int(fr / FPS); return f"{s // 60}:{s % 60:02d}"
@@ -48,7 +49,7 @@ def escribe(k, cuerpo, etiquetas, fuentes):
     open(f"{d}/descripcion.txt", "w", encoding="utf-8").write(texto)
     open(f"{d}/comentario-creditos.txt", "w", encoding="utf-8").write("📚 Créditos de imágenes y vídeos (licencias libres):\n" + "\n".join(largo) + ("\nDominio público / CC0: " + ", ".join(pd) if pd else "") + "\n")
     open(f"{d}/etiquetas.txt", "w", encoding="utf-8").write(", ".join(etiquetas) + "\n")
-    shutil.copy(f"{RAIZ}/miniaturas/2026-11-18-semana-01/{MINI[k]}", f"{d}/miniatura.jpg")
+    shutil.copy(f"{S.MINIS}/{MINI[k]}", f"{d}/miniatura.jpg")
     print(k, "descripción", len(texto), "caracteres ·", len(largo), "créditos con enlace")
 
 # ---- Largo ----

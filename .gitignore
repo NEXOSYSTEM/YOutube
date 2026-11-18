@@ -1,21 +1,37 @@
-# Nunca subir al repositorio
-herramientas/claves-stock.txt
+# Nunca al repositorio: claves, credenciales y datos personales
 credenciales/
+herramientas/claves-stock.txt
 *.env
-token.json
-client_secret*.json
-# Pesados o generados (viven solo en el Mac)
-node_modules/
-.venv/
-voz/python/
-voz/modelos/
+client_secret*
+token*.json
+# Entornos, modelos y herramientas locales (se instalan con README-INSTALACION.md)
+**/.venv
+voz/.bootstrap/
 voz/.uv-cache/
+voz/modelos/
+voz/python/
 herramientas/node/
+herramientas/.npm-cache/
+node_modules/
+montaje/node_modules/
+montaje/.npmrc
+# Contenido generado (pesado y con licencias de terceros)
 material/
-videos/
 audio/
-logs/
-montaje/public/
+videos/
+miniaturas/
+logo/**/*.mp4
+montaje/public/material/
+montaje/public/audio/
+montaje/public/intro/*.mp4
 *.mp4
-*.wav
 *.mov
+*.wav
+# Estado en vivo y registros de este Mac
+ESTADO.md
+montaje/.estado.json
+montaje/.render-actual.log
+montaje/.render-largo/
+montaje/.trozos/
+logs/
+exportar/

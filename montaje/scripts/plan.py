@@ -7,8 +7,9 @@
 """
 import json, math, os, random, re, sys
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
-MAT = f"{RAIZ}/material/2026-11-18-semana-01"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import semana as S  # rutas de la semana
+MAT = S.MAT
 PUB = f"{RAIZ}/montaje/public"
 FPS = int(os.environ.get("VIDEO_FPS", "25"))  # 25 fps por defecto (decisión de Luis, 2026-11-18)
 GAP = 0.3
@@ -311,7 +312,7 @@ def build(blocks, short=False, cuts=None):
         if b.get("rank"):
             sfx.append({"f": f0, "s": "whoosh", "v": 0.6})
             sfx.append({"f": f0 + 6, "s": "impacto", "v": 0.45})
-        link(src_abs=f"{RAIZ}/audio/2026-11-18-semana-01/{a}.wav", dst_rel=f"audio/{a}.wav")
+        link(src_abs=f"{S.AUD}/{a}.wav", dst_rel=f"audio/{a}.wav")
         for p in TIE[a]["phrases"]:
             if p["s"] >= use:
                 break
@@ -386,6 +387,11 @@ def main():
         if pages:
             m = media(pages[0], f"miniatura-{k}")
             plan["thumbs"][k] = {kk: vv for kk, vv in cfg.items() if kk != "img"} | {"img": m["src"]}
+    # Créditos solo de lo que sale de verdad en cada vídeo (tras cambiar fotos por vídeo)
+    for k in ["largo"] + list(ESC["shorts"]):
+        en_video = json.dumps(plan[k]["blocks"], ensure_ascii=False)
+        plan[k]["fuentes"] = [pg for pg in plan[k]["fuentes"]
+                              if ITEMS.get(pg, {}).get("file", "\0").split("/")[-1] in en_video]
     json.dump(plan, open(f"{RAIZ}/montaje/src/data/plan.json", "w"), ensure_ascii=False, indent=1)
     # SRT de cada vídeo a partir del plan (incluye el desfase de la intro)
     def srt(caps, path):
@@ -396,11 +402,10 @@ def main():
             for i, c in enumerate(caps, 1):
                 fh.write(f"{i}\n{ts(c['s'])} --> {ts(c['e'])}\n{' '.join(w['w'] for w in c['words'])}\n\n")
     # una carpeta por vídeo, con fecha (decisión de Luis, 2026-11-18)
-    CARPETAS = {"largo": "2026-11-18-largo-peces-venenosos", "short01": "2026-11-18-short-pez-piedra",
-                "short02": "2026-11-18-short-pez-arana", "short03": "2026-11-18-short-ornitorrinco"}
+    CARPETAS = S.CARP
     for k, carpeta in CARPETAS.items():
         os.makedirs(f"{RAIZ}/videos/{carpeta}", exist_ok=True)
-    srt(plan["largo"]["captions"], f"{RAIZ}/videos/{CARPETAS['largo']}/largo-peces-venenosos.srt")
+    srt(plan["largo"]["captions"], f"{RAIZ}/videos/{S.VID['largo']}.srt")
     for k in ESC["shorts"]:
         srt(plan[k]["captions"], f"{RAIZ}/videos/{CARPETAS[k]}/{plan[k]['out']}.srt")
     credits_md(usage)

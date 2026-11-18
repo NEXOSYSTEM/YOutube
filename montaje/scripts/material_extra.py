@@ -1,8 +1,11 @@
 """Segunda pasada de material: búsquedas por categoría exacta de Commons (más precisas), con pausas
 para no saturar la API (la primera pasada recibió HTTP 429). Mismas reglas de licencia."""
+import os
 import json, sys, time
-sys.path.insert(0, "/Users/luis/Desktop/Youtube/Alucinateconelmundo/montaje/scripts")
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+sys.path.insert(0, f"{RAIZ}/montaje/scripts")
 import buscar_material as B
+
 
 TAREAS = [
     # (carpeta, clave en el catálogo, [búsquedas], máximo)

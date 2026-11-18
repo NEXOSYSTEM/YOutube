@@ -5,11 +5,12 @@ Los momentos salen de la misma lógica que la animación (montaje/src/intro.jsx)
 lupa y el fotograma exacto en que «encuentra» cada huella, continente y «¿?».
 Salida: logo/intro-2026-11-18/intro-lupa-sonido.wav, intro-lupa-sonido.mp4 e intro-lupa-vertical-sonido.mp4
 """
+import os
 import json, math, re, subprocess, wave
 import numpy as np
 import imageio_ffmpeg
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 OUT = f"{RAIZ}/logo/intro-2026-11-18"
 FF = imageio_ffmpeg.get_ffmpeg_exe()
 SR, FPS = 48000, 30

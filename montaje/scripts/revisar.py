@@ -1,12 +1,13 @@
 """Revisión automática de los vídeos renderizados: duración, resolución, sonoridad, cortes a negro, congelados
 y hoja de contactos (1 fotograma cada 10 s) para la revisión visual. Escribe revision.txt en cada carpeta."""
+import os
 import re, subprocess, json
 import imageio_ffmpeg
 
-RAIZ = "/Users/luis/Desktop/Youtube/Alucinateconelmundo"
+RAIZ = os.environ.get("ALUCINATE_RAIZ") or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 FF = imageio_ffmpeg.get_ffmpeg_exe()
-VID = {"largo": "2026-11-18-largo-peces-venenosos/largo-peces-venenosos", "short01": "2026-11-18-short-pez-piedra/short01-pez-piedra",
-       "short02": "2026-11-18-short-pez-arana/short02-pez-arana", "short03": "2026-11-18-short-ornitorrinco/short03-ornitorrinco"}
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); import semana as S  # rutas de la semana
+VID = S.VID
 PLAN = json.load(open(f"{RAIZ}/montaje/src/data/plan.json", encoding="utf-8"))
 for k, rel in VID.items():
     f = f"{RAIZ}/videos/{rel}.mp4"
