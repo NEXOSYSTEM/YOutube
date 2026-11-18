@@ -11,7 +11,7 @@
 3. **El mayor riesgo no es la competencia: es la política de «contenido no auténtico» de YouTube.** Desde julio de 2025, y endurecida en julio de 2026, la combinación «narración IA + metraje de archivo + plantilla repetida» es la causa más común de rechazo en el Programa de Partners. El canal tiene que tener **guion propio, punto de vista y un narrador con personalidad**, no ser una fábrica de listas.
 4. **El listón para cobrar por anuncios sube el 1 de febrero de 2027**, de 4.000 a **8.000 horas de visualización** (o de 10 M a 20 M de vistas de Shorts en 90 días). Con 12 suscriptores no llegamos antes de esa fecha. El objetivo realista para el primer año es el **nivel de «apoyo de fans»**: 500 suscriptores y 3.000 horas (o 3 M de vistas de Shorts en 90 días).
 5. **Los Shorts sirven para captar público, no para ganar dinero.** Pagan del orden de 0,01–0,05 $ por cada 1.000 vistas. El dinero está en el vídeo semilargo. Por eso cada Short debe empujar al vídeo largo de la semana.
-6. **Voz:** ElevenLabs sigue siendo la referencia en español, y su plan de pago incluye licencia comercial. La mejor alternativa gratuita que merece una prueba es **Chatterbox Multilingual** (licencia MIT, clona una voz con unos segundos de audio). Corre en tu ordenador si tienes tarjeta gráfica. Recomiendo hacer una prueba a ciegas con el mismo guion antes de decidir (ver sección 7).
+6. **Voz (decidida):** Qwen3-TTS «ryan», acento de España neutro, x1,25. La comparativa con ElevenLabs y otras alternativas gratuitas queda en la sección 7 como referencia.
 
 ---
 
@@ -159,6 +159,8 @@ Ejemplo: 100.000 vistas al mes en vídeos largos dan unos 50–200 $; 1 M de vis
 
 ## 7. Voz: ElevenLabs frente a alternativas gratuitas
 
+> **Actualización (18/11/2026): voz decidida.** El canal usará **Qwen3-TTS, voz «ryan», con acento de España neutro y a velocidad x1,25**. La configuración está en `voz/config-voz.md`, en la carpeta del proyecto del Mac de Luis. La comparativa de abajo queda solo como referencia.
+
 Necesidad aproximada: 1 vídeo de 10 min (~9.000 caracteres) + 3 Shorts (~900 caracteres cada uno), unos **11–12 mil caracteres por semana** y **~50 mil al mes**.
 
 | Opción | Calidad en español | Coste | Uso comercial | Notas |
@@ -227,7 +229,7 @@ Cada fila es la idea del vídeo semilargo de la semana y los 2 Shorts que salen 
 
 ## 10. Próximos pasos
 
-1. **Tú:** elegir la voz (prueba a ciegas, sección 7) y confirmar el horario (martes 18:00, hora de España).
+1. **Tú:** confirmar el horario (martes 18:00, hora de España).
 2. **Equipo:** reescribir la descripción, el banner y los títulos de los 5 Shorts antiguos (ocultar el que solo tiene la fecha).
 3. **Equipo:** guion completo de la semana 1 + 2 Shorts, siguiendo la estructura de la sección 8.
 4. **Equipo:** montar la cadena de producción (metraje con licencia, voz, montaje, miniatura).
