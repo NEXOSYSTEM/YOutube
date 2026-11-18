@@ -1,0 +1,1140 @@
+{
+ "pools": {
+  "pez-conejo": {
+   "commons": [
+    "Siganus",
+    "Siganus doliatus",
+    "Siganus vulpinus",
+    "Siganus corallinus",
+    "rabbitfish"
+   ],
+   "openverse": [
+    "rabbitfish",
+    "siganus"
+   ]
+  },
+  "blenio": {
+   "commons": [
+    "Meiacanthus",
+    "Meiacanthus grammistes",
+    "Meiacanthus atrodorsalis",
+    "Plagiotremus",
+    "fang blenny"
+   ],
+   "openverse": [
+    "fang blenny",
+    "meiacanthus"
+   ]
+  },
+  "groenlandia": {
+   "commons": [
+    "Somniosus microcephalus",
+    "Greenland shark",
+    "Somniosus"
+   ],
+   "openverse": [
+    "greenland shark"
+   ]
+  },
+  "pez-gato": {
+   "commons": [
+    "Plotosus lineatus",
+    "Plotosus",
+    "striped eel catfish"
+   ],
+   "openverse": [
+    "plotosus lineatus",
+    "striped eel catfish"
+   ]
+  },
+  "cabracho": {
+   "commons": [
+    "Scorpaena scrofa",
+    "Scorpaena porcus",
+    "Scorpaena",
+    "Scorpaena notata"
+   ],
+   "openverse": [
+    "scorpaena scrofa",
+    "scorpaena"
+   ]
+  },
+  "pez-arana": {
+   "commons": [
+    "Trachinus draco",
+    "Echiichthys vipera",
+    "Trachinus",
+    "Trachinus radiatus",
+    "weever fish"
+   ],
+   "openverse": [
+    "trachinus draco",
+    "weever fish",
+    "echiichthys vipera"
+   ]
+  },
+  "pastinaca": {
+   "commons": [
+    "Dasyatis pastinaca",
+    "Dasyatis",
+    "Taeniura lymma",
+    "Hypanus americanus",
+    "stingray"
+   ],
+   "openverse": [
+    "dasyatis pastinaca",
+    "stingray"
+   ]
+  },
+  "pez-leon": {
+   "commons": [
+    "Pterois volitans",
+    "Pterois miles",
+    "Pterois",
+    "lionfish NOAA"
+   ],
+   "openverse": [
+    "pterois volitans",
+    "lionfish"
+   ]
+  },
+  "pez-globo": {
+   "commons": [
+    "Takifugu",
+    "Takifugu rubripes",
+    "Arothron",
+    "Tetraodontidae",
+    "pufferfish inflated"
+   ],
+   "openverse": [
+    "pufferfish",
+    "takifugu",
+    "puffer fish"
+   ]
+  },
+  "pez-piedra": {
+   "commons": [
+    "Synanceia verrucosa",
+    "Synanceia",
+    "Synanceia horrida",
+    "stonefish"
+   ],
+   "openverse": [
+    "synanceia verrucosa",
+    "stonefish"
+   ]
+  },
+  "ornitorrinco": {
+   "commons": [
+    "Ornithorhynchus anatinus",
+    "platypus"
+   ],
+   "openverse": [
+    "platypus",
+    "ornithorhynchus anatinus"
+   ]
+  }
+ },
+ "largo": [
+  {
+   "audio": "largo-01-gancho",
+   "scenes": [
+    {
+     "id": "0.1",
+     "t": 3,
+     "folder": "generico",
+     "q": [
+      "shark jaws",
+      "great white shark"
+     ]
+    },
+    {
+     "id": "0.2",
+     "t": 3,
+     "folder": "generico",
+     "q": [
+      "octopus tentacles"
+     ]
+    },
+    {
+     "id": "0.3",
+     "t": 3,
+     "folder": "generico",
+     "q": [
+      "small fish hand underwater",
+      "diver hand fish"
+     ],
+     "text": "Caben en tu mano"
+    },
+    {
+     "id": "0.4",
+     "t": 4,
+     "folder": "generico",
+     "q": [
+      "feet walking beach shore",
+      "feet beach sand water"
+     ],
+     "text": "Playas de España"
+    },
+    {
+     "id": "0.5",
+     "t": 4,
+     "folder": "pez-globo",
+     "q": [
+      "fugu sashimi",
+      "fugu dish"
+     ]
+    },
+    {
+     "id": "0.6",
+     "t": 5,
+     "pool": "pez-piedra",
+     "reveal": true
+    },
+    {
+     "id": "0.7",
+     "t": 8,
+     "graphic": "title",
+     "folder": "generico",
+     "q": [
+      "deep ocean underwater dark",
+      "deep sea underwater"
+     ],
+     "title": "LOS 10 PECES MÁS VENENOSOS DEL OCÉANO"
+    }
+   ]
+  },
+  {
+   "audio": "largo-02-intro",
+   "scenes": [
+    {
+     "id": "1.1",
+     "t": 8,
+     "graphic": "split",
+     "left": {
+      "folder": "pez-leon",
+      "q": [
+       "lionfish spines"
+      ]
+     },
+     "right": {
+      "folder": "generico",
+      "q": [
+       "fish on plate",
+       "grilled fish plate"
+      ]
+     },
+     "lt": "VENENOSO = te lo inyecta",
+     "rt": "TÓXICO = te lo comes"
+    },
+    {
+     "id": "1.2",
+     "t": 8,
+     "pool": "pez-globo",
+     "text": "…o las dos cosas"
+    },
+    {
+     "id": "1.3",
+     "t": 4,
+     "graphic": "counter",
+     "value": "10"
+    }
+   ]
+  },
+  {
+   "audio": "largo-03-n10-pez-conejo",
+   "rank": "#10 PEZ CONEJO",
+   "ficha": {
+    "comun": "Pez conejo",
+    "cient": "Siganus spp.",
+    "skulls": 2
+   },
+   "scenes": [
+    {
+     "id": "2.1",
+     "t": 6,
+     "pool": "pez-conejo"
+    },
+    {
+     "id": "2.2",
+     "t": 7,
+     "pool": "pez-conejo",
+     "text": "Vegetariano"
+    },
+    {
+     "id": "2.3",
+     "t": 7,
+     "graphic": "map",
+     "zones": [
+      [
+       40,
+       135,
+       -20,
+       25,
+       "Índico y Pacífico"
+      ]
+     ]
+    },
+    {
+     "id": "2.4",
+     "t": 10,
+     "folder": "generico",
+     "q": [
+      "fisherman holding fish hook",
+      "fisherman fish boat"
+     ]
+    },
+    {
+     "id": "2.5",
+     "t": 12,
+     "pool": "pez-conejo",
+     "circle": true,
+     "text": "Espinas con veneno"
+    },
+    {
+     "id": "2.6",
+     "t": 13,
+     "pool": "pez-conejo",
+     "text": "Cara de conejo ≠ inofensivo"
+    }
+   ]
+  },
+  {
+   "audio": "largo-04-n9-blenio",
+   "rank": "#9 BLENIO COLMILLO",
+   "ficha": {
+    "comun": "Blenio colmillo",
+    "cient": "Meiacanthus spp.",
+    "skulls": 2
+   },
+   "scenes": [
+    {
+     "id": "3.1",
+     "t": 7,
+     "pool": "blenio"
+    },
+    {
+     "id": "3.2",
+     "t": 8,
+     "graphic": "size",
+     "text": "Menos que tu dedo"
+    },
+    {
+     "id": "3.3",
+     "t": 10,
+     "pool": "blenio",
+     "circle": true,
+     "text": "Colmillos defensivos"
+    },
+    {
+     "id": "3.4",
+     "t": 12,
+     "graphic": "swallow",
+     "text": "Veneno tipo opioide"
+    },
+    {
+     "id": "3.5",
+     "t": 18,
+     "graphic": "split",
+     "left": {
+      "pool": "blenio"
+     },
+     "right": {
+      "folder": "blenio",
+      "q": [
+       "Plagiotremus laudandus",
+       "Petroscirtes breviceps",
+       "Ecsenius"
+      ]
+     },
+     "lt": "Venenoso",
+     "rt": "Imitador",
+     "text": "Los imitadores"
+    }
+   ]
+  },
+  {
+   "audio": "largo-05-n8-groenlandia",
+   "rank": "#8 TIBURÓN DE GROENLANDIA",
+   "ficha": {
+    "comun": "Tiburón de Groenlandia",
+    "cient": "Somniosus microcephalus",
+    "skulls": 1,
+    "nota": "tóxico"
+   },
+   "scenes": [
+    {
+     "id": "4.1",
+     "t": 8,
+     "pool": "groenlandia"
+    },
+    {
+     "id": "4.2",
+     "t": 10,
+     "folder": "groenlandia",
+     "q": [
+      "arctic sea ice",
+      "sea ice arctic ocean",
+      "iceberg arctic"
+     ],
+     "text": "Aguas heladas"
+    },
+    {
+     "id": "4.3",
+     "t": 10,
+     "graphic": "years",
+     "value": 400,
+     "text": "+400 AÑOS"
+    },
+    {
+     "id": "4.4",
+     "t": 12,
+     "folder": "groenlandia",
+     "q": [
+      "dizzy man",
+      "blurry man drunk"
+     ],
+     "blur": true,
+     "text": "Carne fresca = tóxica"
+    },
+    {
+     "id": "4.5",
+     "t": 12,
+     "folder": "groenlandia",
+     "q": [
+      "hákarl drying",
+      "hakarl shed",
+      "Bjarnarhöfn"
+     ],
+     "text": "Hákarl (Islandia)"
+    },
+    {
+     "id": "4.6",
+     "t": 8,
+     "folder": "groenlandia",
+     "q": [
+      "hákarl",
+      "hakarl fermented shark"
+     ]
+    }
+   ]
+  },
+  {
+   "audio": "largo-06-n7-pez-gato",
+   "rank": "#7 PEZ GATO ESTRIADO",
+   "ficha": {
+    "comun": "Pez gato estriado",
+    "cient": "Plotosus lineatus",
+    "skulls": 3
+   },
+   "scenes": [
+    {
+     "id": "5.1",
+     "t": 10,
+     "pool": "pez-gato"
+    },
+    {
+     "id": "5.2",
+     "t": 12,
+     "pool": "pez-gato",
+     "text": "Se mueven como un solo animal"
+    },
+    {
+     "id": "5.3",
+     "t": 13,
+     "pool": "pez-gato",
+     "circle": true,
+     "text": "Espinas venenosas"
+    },
+    {
+     "id": "5.4",
+     "t": 12,
+     "folder": "generico",
+     "q": [
+      "dead fish on beach",
+      "dead fish sand"
+     ],
+     "text": "Muerto… sigue picando"
+    },
+    {
+     "id": "5.5",
+     "t": 8,
+     "folder": "generico",
+     "q": [
+      "gloves fishing",
+      "glove hand fish"
+     ]
+    }
+   ]
+  },
+  {
+   "audio": "largo-07-n6-cabracho",
+   "rank": "#6 CABRACHO",
+   "ficha": {
+    "comun": "Cabracho",
+    "cient": "Scorpaena scrofa",
+    "skulls": 2
+   },
+   "scenes": [
+    {
+     "id": "6.1",
+     "t": 7,
+     "pool": "cabracho"
+    },
+    {
+     "id": "6.2",
+     "t": 10,
+     "folder": "cabracho",
+     "q": [
+      "pastel de cabracho",
+      "fish pate",
+      "pâté tapas"
+     ],
+     "text": "¿Te suena?"
+    },
+    {
+     "id": "6.3",
+     "t": 10,
+     "graphic": "map",
+     "zones": [
+      [
+       -6,
+       36,
+       30,
+       46,
+       "Mediterráneo"
+      ],
+      [
+       -18,
+       -5,
+       20,
+       50,
+       "Atlántico"
+      ]
+     ]
+    },
+    {
+     "id": "6.4",
+     "t": 12,
+     "pool": "cabracho",
+     "circle": true,
+     "text": "Pez escorpión"
+    },
+    {
+     "id": "6.5",
+     "t": 8,
+     "folder": "generico",
+     "q": [
+      "fishmonger fish market",
+      "fish market spain"
+     ]
+    },
+    {
+     "id": "6.6",
+     "t": 8,
+     "folder": "generico",
+     "q": [
+      "fish frying pan",
+      "cooking fish pan"
+     ],
+     "text": "El calor destruye el veneno"
+    }
+   ]
+  },
+  {
+   "audio": "largo-08-regancho",
+   "scenes": [
+    {
+     "id": "7.1",
+     "t": 10,
+     "dark": true,
+     "text": "A partir de aquí… cuidado",
+     "folder": "pez-arana",
+     "q": [
+      "(curado)"
+     ]
+    }
+   ]
+  },
+  {
+   "audio": "largo-09-n5-pez-arana",
+   "rank": "#5 PEZ ARAÑA",
+   "ficha": {
+    "comun": "Pez araña",
+    "cient": "Trachinus draco",
+    "skulls": 3
+   },
+   "scenes": [
+    {
+     "id": "8.1",
+     "t": 8,
+     "folder": "pez-arana",
+     "q": [
+      "(curado)"
+     ]
+    },
+    {
+     "id": "8.2",
+     "t": 10,
+     "circle": true,
+     "text": "Aleta dorsal = espinas",
+     "folder": "pez-arana",
+     "q": [
+      "(curado)"
+     ]
+    },
+    {
+     "id": "8.3",
+     "t": 10,
+     "folder": "generico",
+     "q": [
+      "playa España bañistas",
+      "beach Spain summer",
+      "Benidorm beach"
+     ],
+     "text": "Costas de España"
+    },
+    {
+     "id": "8.4",
+     "t": 10,
+     "folder": "generico",
+     "q": [
+      "foot water shore",
+      "feet sea water"
+     ]
+    },
+    {
+     "id": "8.5",
+     "t": 14,
+     "graphic": "steps",
+     "steps": [
+      "Sal del agua y avisa al socorrista",
+      "Agua caliente (sin quemarte)",
+      "Si te mareas: URGENCIAS"
+     ]
+    },
+    {
+     "id": "8.6",
+     "t": 8,
+     "folder": "generico",
+     "q": [
+      "lifeguard tower beach Spain",
+      "lifeguard tower"
+     ]
+    }
+   ]
+  },
+  {
+   "audio": "largo-10-n4-pastinaca",
+   "rank": "#4 PASTINACA",
+   "ficha": {
+    "comun": "Pastinaca",
+    "cient": "Dasyatis pastinaca",
+    "skulls": 3
+   },
+   "scenes": [
+    {
+     "id": "9.1",
+     "t": 8,
+     "pool": "pastinaca"
+    },
+    {
+     "id": "9.2",
+     "t": 10,
+     "text": "Huye antes que atacar",
+     "folder": "pastinaca",
+     "q": [
+      "(curado)"
+     ]
+    },
+    {
+     "id": "9.3",
+     "t": 12,
+     "folder": "pastinaca",
+     "q": [
+      "stingray tail barb",
+      "stingray spine",
+      "stingray barb"
+     ],
+     "circle": true,
+     "text": "Aguijón aserrado + veneno"
+    },
+    {
+     "id": "9.4",
+     "t": 15,
+     "folder": "generico",
+     "q": [
+      "Great Barrier Reef coast Queensland",
+      "Queensland coast aerial"
+     ],
+     "soft": true,
+     "text": "Steve Irwin · 2006"
+    },
+    {
+     "id": "9.5",
+     "t": 10,
+     "pool": "pastinaca",
+     "text": "Caso rarísimo"
+    }
+   ]
+  },
+  {
+   "audio": "largo-11-n3-pez-leon",
+   "rank": "#3 PEZ LEÓN",
+   "ficha": {
+    "comun": "Pez león",
+    "cient": "Pterois spp.",
+    "skulls": 4
+   },
+   "scenes": [
+    {
+     "id": "10.1",
+     "t": 10,
+     "pool": "pez-leon"
+    },
+    {
+     "id": "10.2",
+     "t": 10,
+     "pool": "pez-leon",
+     "text": "18 espinas venenosas"
+    },
+    {
+     "id": "10.3",
+     "t": 13,
+     "graphic": "map",
+     "zones": [
+      [
+       40,
+       160,
+       -30,
+       30,
+       "Origen"
+      ],
+      [
+       -98,
+       -60,
+       8,
+       35,
+       "Invadido"
+      ]
+     ],
+     "arrow": true,
+     "text": "Invasión desde los años 80"
+    },
+    {
+     "id": "10.4",
+     "t": 10,
+     "pool": "pez-leon",
+     "text": "Sin depredadores"
+    },
+    {
+     "id": "10.5",
+     "t": 12,
+     "folder": "pez-leon",
+     "q": [
+      "lionfish spearfishing",
+      "lionfish derby",
+      "lionfish fillet",
+      "lionfish culling diver"
+     ],
+     "text": "Se lo comen para frenar la plaga"
+    }
+   ]
+  },
+  {
+   "audio": "largo-12-regancho2",
+   "scenes": [
+    {
+     "id": "11.1",
+     "t": 8,
+     "graphic": "split",
+     "left": {
+      "pool": "pez-globo"
+     },
+     "right": {
+      "pool": "pez-piedra"
+     },
+     "lt": "2",
+     "rt": "1"
+    }
+   ]
+  },
+  {
+   "audio": "largo-13-n2-pez-globo",
+   "rank": "#2 PEZ GLOBO",
+   "ficha": {
+    "comun": "Pez globo",
+    "cient": "Takifugu spp.",
+    "skulls": 4,
+    "nota": "tóxico"
+   },
+   "scenes": [
+    {
+     "id": "12.1",
+     "t": 8,
+     "pool": "pez-globo"
+    },
+    {
+     "id": "12.2",
+     "t": 12,
+     "graphic": "organs",
+     "text": "Tetrodotoxina"
+    },
+    {
+     "id": "12.3",
+     "t": 10,
+     "graphic": "black",
+     "text": "NO HAY ANTÍDOTO"
+    },
+    {
+     "id": "12.4",
+     "t": 14,
+     "folder": "pez-globo",
+     "q": [
+      "japanese chef cutting fish",
+      "fugu chef",
+      "fugu sashimi"
+     ],
+     "text": "Cocineros con licencia"
+    },
+    {
+     "id": "12.5",
+     "t": 13,
+     "folder": "pez-globo",
+     "q": [
+      "inflated pufferfish",
+      "puffed up pufferfish",
+      "Diodon inflated"
+     ]
+    }
+   ]
+  },
+  {
+   "audio": "largo-14-n1-pez-piedra",
+   "rank": "#1 PEZ PIEDRA",
+   "ficha": {
+    "comun": "Pez piedra",
+    "cient": "Synanceia verrucosa",
+    "skulls": 5
+   },
+   "fichaAt": "13.3",
+   "scenes": [
+    {
+     "id": "13.1",
+     "t": 7,
+     "pool": "pez-piedra"
+    },
+    {
+     "id": "13.2",
+     "t": 8,
+     "pool": "pez-piedra",
+     "reveal": true,
+     "text": "¿Lo ves?"
+    },
+    {
+     "id": "13.3",
+     "t": 8,
+     "pool": "pez-piedra"
+    },
+    {
+     "id": "13.4",
+     "t": 10,
+     "graphic": "spines",
+     "text": "13 espinas"
+    },
+    {
+     "id": "13.5",
+     "t": 10,
+     "pool": "pez-piedra",
+     "text": "El peor dolor"
+    },
+    {
+     "id": "13.6",
+     "t": 7,
+     "folder": "generico",
+     "q": [
+      "ambulance",
+      "ambulance Spain"
+     ],
+     "text": "Tiene antídoto propio"
+    }
+   ]
+  },
+  {
+   "audio": "largo-15-cierre",
+   "scenes": [
+    {
+     "id": "14.1",
+     "t": 10,
+     "graphic": "montage"
+    },
+    {
+     "id": "14.2",
+     "t": 7,
+     "pool": "pez-piedra",
+     "text": "¿Cuál te da más miedo? 👇"
+    },
+    {
+     "id": "14.3",
+     "t": 8,
+     "graphic": "end"
+    }
+   ]
+  }
+ ],
+ "shorts": {
+  "short01": {
+   "out": "short01-pez-piedra",
+   "hook": "AQUÍ HAY UN PEZ",
+   "keywords": [
+    "venenoso",
+    "piedra",
+    "trece",
+    "veneno",
+    "dolor",
+    "antídoto",
+    "visto"
+   ],
+   "scenes": [
+    {
+     "id": "S1.1",
+     "t": 4,
+     "pool": "pez-piedra"
+    },
+    {
+     "id": "S1.2",
+     "t": 4,
+     "pool": "pez-piedra",
+     "text": "¿Lo ves? 👀"
+    },
+    {
+     "id": "S1.3",
+     "t": 4,
+     "pool": "pez-piedra",
+     "hold": "rock",
+     "reveal": true,
+     "text": "PEZ PIEDRA"
+    },
+    {
+     "id": "S1.4",
+     "t": 5,
+     "folder": "generico",
+     "q": [
+      "barefoot shallow water",
+      "feet shallow water reef"
+     ]
+    },
+    {
+     "id": "S1.5",
+     "t": 6,
+     "graphic": "spines",
+     "text": "13 ESPINAS"
+    },
+    {
+     "id": "S1.6",
+     "t": 5,
+     "pool": "pez-piedra",
+     "text": "El peor dolor"
+    },
+    {
+     "id": "S1.7",
+     "t": 3,
+     "folder": "generico",
+     "q": [
+      "antivenom vial",
+      "antivenom"
+     ],
+     "text": "Hay antídoto…"
+    },
+    {
+     "id": "S1.8",
+     "t": 4,
+     "pool": "pez-piedra",
+     "text": "¿Lo habías visto?"
+    }
+   ]
+  },
+  "short02": {
+   "out": "short02-pez-arana",
+   "hook": "¿Y SI PISAS ESTO?",
+   "keywords": [
+    "araña",
+    "ves",
+    "espinas",
+    "veneno",
+    "dolor",
+    "socorrista",
+    "caliente",
+    "urgencias",
+    "verano"
+   ],
+   "scenes": [
+    {
+     "id": "S2.1",
+     "t": 4,
+     "folder": "generico",
+     "q": [
+      "foot sand underwater",
+      "feet sea water"
+     ]
+    },
+    {
+     "id": "S2.2",
+     "t": 5,
+     "text": "Ni lo ves",
+     "folder": "pez-arana",
+     "q": [
+      "(curado)"
+     ]
+    },
+    {
+     "id": "S2.3",
+     "t": 5,
+     "circle": true,
+     "text": "Aleta = espinas ☠️",
+     "folder": "pez-arana",
+     "q": [
+      "(curado)"
+     ]
+    },
+    {
+     "id": "S2.4",
+     "t": 5,
+     "folder": "generico",
+     "q": [
+      "playa España bañistas",
+      "beach Spain summer"
+     ],
+     "text": "Playas de España"
+    },
+    {
+     "id": "S2.5",
+     "t": 5,
+     "folder": "generico",
+     "q": [
+      "person walking out of sea",
+      "man walking out of sea"
+     ],
+     "text": "Dolor inmediato"
+    },
+    {
+     "id": "S2.6",
+     "t": 4,
+     "graphic": "step",
+     "n": 1,
+     "text": "Sal y avisa al socorrista",
+     "folder": "generico",
+     "q": [
+      "lifeguard tower"
+     ]
+    },
+    {
+     "id": "S2.7",
+     "t": 5,
+     "graphic": "step",
+     "n": 2,
+     "text": "Agua caliente (sin quemarte)",
+     "folder": "generico",
+     "q": [
+      "bucket of water",
+      "hot water basin"
+     ]
+    },
+    {
+     "id": "S2.8",
+     "t": 4,
+     "graphic": "step",
+     "n": 3,
+     "text": "Si te mareas: URGENCIAS"
+    },
+    {
+     "id": "S2.9",
+     "t": 3,
+     "text": "Guárdalo para el verano 📌",
+     "folder": "pez-arana",
+     "q": [
+      "(curado)"
+     ]
+    }
+   ]
+  },
+  "short03": {
+   "out": "short03-ornitorrinco",
+   "hook": "PARECE UN PELUCHE…",
+   "keywords": [
+    "peluche",
+    "venenosos",
+    "ornitorrinco",
+    "huevos",
+    "electricidad",
+    "espolón",
+    "veneno",
+    "semanas",
+    "celo",
+    "mejor"
+   ],
+   "scenes": [
+    {
+     "id": "S3.1",
+     "t": 4,
+     "pool": "ornitorrinco"
+    },
+    {
+     "id": "S3.2",
+     "t": 4,
+     "pool": "ornitorrinco",
+     "redtint": true,
+     "text": "…y tiene VENENO ☠️"
+    },
+    {
+     "id": "S3.3",
+     "t": 6,
+     "folder": "ornitorrinco",
+     "q": [
+      "platypus egg",
+      "platypus bill",
+      "platypus tail",
+      "Ornithorhynchus skeleton"
+     ],
+     "text": "Pone huevos 🥚 · Pico de pato 🦆 · Cola de castor"
+    },
+    {
+     "id": "S3.4",
+     "t": 5,
+     "pool": "ornitorrinco",
+     "text": "Detecta electricidad ⚡"
+    },
+    {
+     "id": "S3.5",
+     "t": 6,
+     "folder": "ornitorrinco",
+     "q": [
+      "platypus spur",
+      "platypus hind leg spur",
+      "Ornithorhynchus spur"
+     ],
+     "circle": true,
+     "text": "ESPOLÓN VENENOSO"
+    },
+    {
+     "id": "S3.6",
+     "t": 6,
+     "graphic": "calendar",
+     "text": "Dolor durante semanas"
+    },
+    {
+     "id": "S3.7",
+     "t": 5,
+     "pool": "ornitorrinco",
+     "text": "En época de celo"
+    },
+    {
+     "id": "S3.8",
+     "t": 4,
+     "pool": "ornitorrinco",
+     "text": "¿Abrazable? Mejor no."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,712 @@
+{
+ "_nota": "Selección manual tras revisar las hojas de contactos. Prefijos «NN» = número de archivo dentro de la carpeta; «carpeta/NN» para otra carpeta.",
+ "pools": {
+  "pez-conejo": [
+   "05",
+   "06",
+   "08",
+   "07",
+   "09",
+   "02",
+   "16",
+   "01",
+   "15",
+   "03"
+  ],
+  "blenio": [
+   "04",
+   "03",
+   "05",
+   "06",
+   "01",
+   "02",
+   "14",
+   "15",
+   "16"
+  ],
+  "pez-gato": [
+   "03",
+   "02",
+   "07",
+   "10",
+   "15",
+   "16",
+   "01",
+   "04",
+   "12"
+  ],
+  "cabracho": [
+   "01",
+   "09",
+   "10",
+   "12",
+   "08",
+   "07",
+   "06",
+   "13",
+   "11"
+  ],
+  "pez-leon": [
+   "01",
+   "02",
+   "04",
+   "03",
+   "07",
+   "10",
+   "15",
+   "16",
+   "19"
+  ],
+  "pez-piedra": [
+   "03",
+   "02",
+   "04",
+   "10",
+   "12",
+   "11",
+   "05",
+   "14",
+   "16",
+   "06",
+   "15"
+  ],
+  "ornitorrinco": [
+   "10",
+   "13",
+   "14",
+   "16",
+   "11",
+   "07",
+   "02",
+   "08",
+   "12",
+   "15",
+   "06"
+  ],
+  "pez-arana": [
+   "16",
+   "27",
+   "14",
+   "21",
+   "19",
+   "26",
+   "18",
+   "10",
+   "25"
+  ],
+  "pastinaca": [
+   "02",
+   "15",
+   "17",
+   "22",
+   "24",
+   "16",
+   "31",
+   "32",
+   "01",
+   "05"
+  ],
+  "pez-globo": [
+   "26",
+   "32",
+   "34",
+   "23",
+   "30",
+   "02",
+   "13",
+   "03",
+   "22",
+   "36",
+   "35"
+  ],
+  "groenlandia": [
+   "05",
+   "03",
+   "01",
+   "09",
+   "02"
+  ]
+ },
+ "queries": {
+  "0.1": {
+   "folder": "generico",
+   "files": [
+    "01",
+    "02"
+   ]
+  },
+  "0.2": {
+   "folder": "generico",
+   "files": [
+    "03"
+   ]
+  },
+  "0.3": {
+   "folder": "pez-leon",
+   "files": [
+    "17"
+   ]
+  },
+  "0.4": {
+   "folder": "generico",
+   "files": [
+    "07",
+    "08"
+   ]
+  },
+  "0.5": {
+   "folder": "pez-globo",
+   "files": [
+    "17",
+    "18"
+   ]
+  },
+  "0.7": {
+   "folder": "generico",
+   "files": [
+    "10",
+    "11"
+   ]
+  },
+  "1.1r": {
+   "folder": "generico",
+   "files": [
+    "15"
+   ]
+  },
+  "1.1l": {
+   "folder": "pez-leon",
+   "files": [
+    "15"
+   ]
+  },
+  "2.4": {
+   "folder": "generico",
+   "files": [
+    "16",
+    "17",
+    "19"
+   ]
+  },
+  "3.5r": {
+   "folder": "blenio",
+   "files": [
+    "10",
+    "09",
+    "11"
+   ]
+  },
+  "5.4": {
+   "folder": "generico",
+   "files": [
+    "21",
+    "22",
+    "20"
+   ]
+  },
+  "6.5": {
+   "folder": "generico",
+   "files": [
+    "24",
+    "23",
+    "25"
+   ]
+  },
+  "6.6": {
+   "folder": "generico",
+   "files": [
+    "27",
+    "15"
+   ]
+  },
+  "8.3": {
+   "folder": "generico",
+   "files": [
+    "32",
+    "30",
+    "31"
+   ]
+  },
+  "8.4": {
+   "folder": "generico",
+   "files": [
+    "07",
+    "50"
+   ]
+  },
+  "8.6": {
+   "folder": "generico",
+   "files": [
+    "37",
+    "36",
+    "53"
+   ]
+  },
+  "10.5": {
+   "folder": "pez-leon",
+   "files": [
+    "06",
+    "09",
+    "13",
+    "08"
+   ]
+  },
+  "13.6": {
+   "folder": "generico",
+   "files": [
+    "43",
+    "44"
+   ]
+  },
+  "S1.4": {
+   "folder": "generico",
+   "files": [
+    "07"
+   ]
+  },
+  "S1.7": {
+   "folder": "generico",
+   "files": [
+    "47"
+   ]
+  },
+  "S2.1": {
+   "folder": "generico",
+   "files": [
+    "07"
+   ]
+  },
+  "S2.4": {
+   "folder": "generico",
+   "files": [
+    "30",
+    "32"
+   ]
+  },
+  "S2.5": {
+   "folder": "generico",
+   "files": [
+    "08",
+    "50"
+   ]
+  },
+  "S2.6": {
+   "folder": "generico",
+   "files": [
+    "37",
+    "36"
+   ]
+  },
+  "S3.3": {
+   "folder": "ornitorrinco",
+   "files": [
+    "03",
+    "09"
+   ]
+  },
+  "S3.5": {
+   "folder": "ornitorrinco",
+   "files": [
+    "01"
+   ]
+  },
+  "7.1": {
+   "folder": "pez-arana",
+   "files": [
+    "09"
+   ]
+  },
+  "8.1": {
+   "folder": "pez-arana",
+   "files": [
+    "16",
+    "27"
+   ]
+  },
+  "8.2": {
+   "folder": "pez-arana",
+   "files": [
+    "22",
+    "12"
+   ]
+  },
+  "S2.2": {
+   "folder": "pez-arana",
+   "files": [
+    "09",
+    "25"
+   ]
+  },
+  "S2.3": {
+   "folder": "pez-arana",
+   "files": [
+    "22",
+    "12"
+   ]
+  },
+  "S2.9": {
+   "folder": "pez-arana",
+   "files": [
+    "16"
+   ]
+  },
+  "9.2": {
+   "folder": "pastinaca",
+   "files": [
+    "20",
+    "33",
+    "25"
+   ]
+  },
+  "9.3": {
+   "folder": "pastinaca",
+   "files": [
+    "19",
+    "04",
+    "03"
+   ]
+  },
+  "4.2": {
+   "folder": "groenlandia",
+   "files": [
+    "13",
+    "14"
+   ]
+  },
+  "4.4": {
+   "folder": "groenlandia",
+   "files": [
+    "03",
+    "05"
+   ]
+  },
+  "4.5": {
+   "folder": "groenlandia",
+   "files": [
+    "18",
+    "07"
+   ]
+  },
+  "4.6": {
+   "folder": "groenlandia",
+   "files": [
+    "16",
+    "22",
+    "19"
+   ]
+  },
+  "5.5": {
+   "folder": "generico",
+   "files": [
+    "23"
+   ]
+  },
+  "6.2": {
+   "folder": "generico",
+   "files": [
+    "29",
+    "15"
+   ]
+  },
+  "9.4": {
+   "folder": "generico",
+   "files": [
+    "39"
+   ]
+  },
+  "12.4": {
+   "folder": "pez-globo",
+   "files": [
+    "17",
+    "24",
+    "18",
+    "43"
+   ]
+  },
+  "12.5": {
+   "folder": "pez-globo",
+   "files": [
+    "16",
+    "39",
+    "41"
+   ]
+  },
+  "S2.7": {
+   "folder": "generico",
+   "files": [
+    "33"
+   ]
+  }
+ },
+ "miniaturas": {
+  "largo": {
+   "img": "pez-piedra/02",
+   "texto": "NO LO PISES",
+   "sub": "El pez más venenoso del mundo",
+   "circulo": {
+    "x": 700,
+    "y": 430,
+    "rx": 330,
+    "ry": 200
+   }
+  },
+  "short01": {
+   "img": "pez-piedra/03",
+   "texto": "¿LO VES?",
+   "sub": "Es el pez más venenoso del mundo",
+   "circulo": {
+    "x": 540,
+    "y": 1150,
+    "rx": 420,
+    "ry": 330
+   },
+   "flecha": false
+  },
+  "short02": {
+   "img": "pez-arana/16",
+   "texto": "¿Y SI PISAS ESTO?",
+   "sub": "Vive en playas de España",
+   "circulo": {
+    "x": 640,
+    "y": 1010,
+    "rx": 380,
+    "ry": 250
+   },
+   "flecha": false,
+   "pos": "88% 50%"
+  },
+  "short03": {
+   "img": "ornitorrinco/13",
+   "texto": "PARECE UN PELUCHE…",
+   "sub": "…y tiene VENENO ☠️",
+   "circulo": null,
+   "pos": "8% 50%"
+  }
+ },
+ "intro_largo": {
+  "archivo": "logo/intro-2026-11-18/intro-lupa-sonido.mp4",
+  "frames": 248,
+  "despues_de_bloque": 1,
+  "_nota": "Elegida por Luis el 2026-11-18: intro completa de 8 s, tras el gancho y antes del #10. La corta de 3 s queda en intro-lupa-corta.mp4."
+ },
+ "videos_pool": {
+  "pez-leon": [
+   "pez-leon/21",
+   "pez-leon/23",
+   "pez-leon/22",
+   "cabracho/22",
+   "pez-piedra/30",
+   "pez-piedra/33"
+  ],
+  "pastinaca": [
+   "pastinaca/38",
+   "pastinaca/40",
+   "pastinaca/41",
+   "pastinaca/42",
+   "pastinaca/43",
+   "pez-arana/32"
+  ],
+  "cabracho": [
+   "cabracho/21",
+   "pez-piedra/29",
+   "pez-piedra/32",
+   "pastinaca/44",
+   "pez-piedra/31"
+  ],
+  "pez-piedra": [
+   "pez-piedra/29",
+   "pez-piedra/30",
+   "pez-piedra/33",
+   "pez-piedra/34",
+   "pez-piedra/21",
+   "pez-piedra/31"
+  ],
+  "pez-arana": [
+   "pez-arana/39",
+   "generico/68",
+   "generico/93",
+   "pez-arana/38",
+   "pez-arana/37",
+   "blenio/22"
+  ],
+  "ornitorrinco": [
+   "ornitorrinco/35",
+   "ornitorrinco/34",
+   "ornitorrinco/36",
+   "ornitorrinco/27",
+   "ornitorrinco/33"
+  ],
+  "groenlandia": [
+   "groenlandia/35",
+   "groenlandia/40",
+   "groenlandia/34",
+   "groenlandia/23",
+   "groenlandia/39",
+   "groenlandia/33"
+  ],
+  "pez-conejo": [
+   "generico/91",
+   "pez-piedra/21",
+   "pastinaca/43",
+   "pez-piedra/32"
+  ],
+  "blenio": [
+   "pez-piedra/32",
+   "generico/91",
+   "pastinaca/44",
+   "pez-piedra/30"
+  ],
+  "pez-gato": [
+   "pez-arana/43",
+   "pez-arana/44",
+   "pez-gato/30",
+   "pez-gato/31",
+   "pez-piedra/32"
+  ],
+  "pez-globo": [
+   "pez-piedra/22",
+   "pastinaca/39",
+   "generico/91",
+   "pez-gato/31"
+  ]
+ },
+ "videos_escena": {
+  "0.1": [
+   "generico/59",
+   "generico/57"
+  ],
+  "0.2": [
+   "generico/61",
+   "generico/62"
+  ],
+  "0.3": [
+   "pez-leon/21"
+  ],
+  "0.4": [
+   "generico/07",
+   "generico/68"
+  ],
+  "0.5": [
+   "generico/89",
+   "generico/87"
+  ],
+  "0.7": [
+   "generico/63",
+   "generico/65"
+  ],
+  "2.4": [
+   "generico/16",
+   "generico/71",
+   "generico/17"
+  ],
+  "4.2": [
+   "groenlandia/35",
+   "groenlandia/40",
+   "groenlandia/23"
+  ],
+  "4.4": [
+   "groenlandia/38"
+  ],
+  "4.5": [
+   "groenlandia/38"
+  ],
+  "5.4": [
+   "generico/93",
+   "generico/68"
+  ],
+  "5.5": [
+   "generico/75"
+  ],
+  "6.2": [
+   "generico/74"
+  ],
+  "6.5": [
+   "generico/77",
+   "generico/73"
+  ],
+  "6.6": [
+   "generico/76",
+   "generico/27"
+  ],
+  "8.3": [
+   "generico/81",
+   "generico/70"
+  ],
+  "8.4": [
+   "generico/07",
+   "generico/69"
+  ],
+  "8.6": [
+   "generico/82",
+   "generico/83"
+  ],
+  "9.4": [
+   "generico/92",
+   "generico/70"
+  ],
+  "12.4": [
+   "generico/87",
+   "generico/89",
+   "generico/88"
+  ],
+  "13.6": [
+   "generico/84"
+  ],
+  "S1.4": [
+   "generico/07",
+   "generico/68"
+  ],
+  "S1.7": [
+   "generico/84"
+  ],
+  "S2.1": [
+   "generico/07",
+   "generico/93"
+  ],
+  "S2.4": [
+   "generico/81",
+   "generico/82"
+  ],
+  "S2.5": [
+   "generico/08",
+   "generico/69"
+  ],
+  "S2.6": [
+   "generico/82",
+   "generico/83"
+  ],
+  "S2.7": [
+   "generico/96",
+   "generico/95"
+  ],
+  "S1.1": [
+   "pez-piedra/29"
+  ],
+  "S1.2": [
+   "pez-piedra/31"
+  ],
+  "S1.8": [
+   "pez-piedra/29"
+  ],
+  "S1.6": [
+   "pez-piedra/33"
+  ]
+ },
+ "inicio_clip": {
+  "generico/75": 1.2
+ },
+ "videos_especie": {
+  "pez-leon": [
+   "pez-leon/21",
+   "pez-leon/23",
+   "pez-leon/22"
+  ],
+  "pastinaca": [
+   "pastinaca/38",
+   "pastinaca/40"
+  ],
+  "cabracho": [
+   "cabracho/21"
+  ]
+ }
+}

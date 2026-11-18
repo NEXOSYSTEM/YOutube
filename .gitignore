@@ -1,0 +1,21 @@
+# Nunca subir al repositorio
+herramientas/claves-stock.txt
+credenciales/
+*.env
+token.json
+client_secret*.json
+# Pesados o generados (viven solo en el Mac)
+node_modules/
+.venv/
+voz/python/
+voz/modelos/
+voz/.uv-cache/
+herramientas/node/
+material/
+videos/
+audio/
+logs/
+montaje/public/
+*.mp4
+*.wav
+*.mov
