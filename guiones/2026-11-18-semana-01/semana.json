@@ -1,0 +1,9 @@
+{
+  "fecha": "2026-11-18",
+  "piezas": {
+    "short01": {"composicion": "Short01", "nombre": "Short pez piedra", "carpeta": "2026-11-18-short-pez-piedra", "archivo": "short01-pez-piedra", "miniatura": "short01.jpg"},
+    "short02": {"composicion": "Short02", "nombre": "Short pez araña", "carpeta": "2026-11-18-short-pez-arana", "archivo": "short02-pez-arana", "miniatura": "short02.jpg"},
+    "short03": {"composicion": "Short03", "nombre": "Short ornitorrinco", "carpeta": "2026-11-18-short-ornitorrinco", "archivo": "short03-ornitorrinco", "miniatura": "short03.jpg"},
+    "largo": {"composicion": "Largo", "nombre": "vídeo largo", "carpeta": "2026-11-18-largo-peces-venenosos", "archivo": "largo-peces-venenosos", "miniatura": "largo-peces-venenosos.jpg"}
+  }
+}

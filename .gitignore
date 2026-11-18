@@ -1,0 +1,38 @@
+# Nunca al repositorio: claves, credenciales y datos personales
+credenciales/
+herramientas/claves-stock.txt
+*.env
+client_secret*
+token*.json
+# Entornos, modelos y herramientas locales (se instalan con README-INSTALACION.md)
+**/.venv
+voz/.bootstrap/
+voz/.uv-cache/
+voz/modelos/
+voz/python/
+herramientas/node/
+herramientas/.npm-cache/
+node_modules/
+montaje/node_modules/
+montaje/.npmrc
+# Contenido generado (pesado y con licencias de terceros)
+material/
+audio/
+videos/
+miniaturas/
+logo/**/*.mp4
+montaje/public/material/
+montaje/public/audio/
+montaje/public/intro/*.mp4
+*.mp4
+*.mov
+*.wav
+# Estado en vivo y registros de este Mac
+ESTADO.md
+montaje/.estado.json
+montaje/.render-actual.log
+montaje/.render-largo/
+montaje/.trozos/
+logs/
+exportar/
+voz/muestras/
