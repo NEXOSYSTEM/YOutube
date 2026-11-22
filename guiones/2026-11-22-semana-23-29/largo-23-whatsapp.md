@@ -8,7 +8,7 @@
 |---|---|
 | **Título** | Qué pasa en 1 SEGUNDO cuando envías un WhatsApp |
 | **Títulos alternativos** | «Tu WhatsApp da la vuelta al mundo en 1 segundo (y nadie lo puede leer)» · «El viaje secreto de tu mensaje de WhatsApp» |
-| **Duración objetivo** | ≈9 min (≈1.400 palabras a x1,25 más pausas) |
+| **Duración objetivo** | ≈7 min (≈1.460 palabras a x1,25 más pausas; dentro de la norma de largos de 6 a 8 min como máximo; ampliado el 22-nov con los bloques 3b, 6b y 6c porque la primera versión daba ≈5 min) |
 | **Estructura** | Gancho → intro lupa → 7 paradas del viaje, con un cronómetro en pantalla que avanza de 0 a 1 segundo → reenganche con la pregunta de los checks → cierre con pregunta |
 | **Estilo** | Animación propia como base (el mensaje es un sobre que brilla y viaja por un mapa; cronómetro arriba a la derecha) · vídeo real de apoyo: antenas, fibra óptica, centro de datos, barco cablero, fondo marino · un móvil en pantalla como hilo · sin Veo |
 | **Miniatura** | Móvil con una burbuja de WhatsApp de la que sale una estela de luz que cruza un mapa del mundo. Texto grande en 2 colores: «1 SEGUNDO» en amarillo + «¿DÓNDE VA?» en blanco |
@@ -58,6 +58,18 @@
 | 3.2 | Etiqueta de cerca: «Para: servidor · 1 de 1» | «Dirección + orden» |
 | 3.3 | Foto que se divide en muchas cajitas | «Una foto = cientos de paquetes» |
 
+## BLOQUE 3b · ¿Y si es una foto o un audio? (nuevo, ≈1 min)
+
+> ¿Y si en vez de «ya llego» mandas una foto? Una foto de tu móvil puede pesar varios megas, miles de veces más que un mensaje de texto. Para que viaje rápido y no te gaste los datos, WhatsApp la comprime antes de mandarla: reduce su tamaño y su resolución, quitando detalles que en una pantalla de móvil casi no se notan. Por eso a veces las fotos que te mandan se ven peor que las originales. Si quieres que llegue con toda su calidad, puedes elegir la opción HD o mandarla como documento. Con los audios pasa algo parecido: tu voz se convierte en números con un sistema pensado para voz, muy ligero, de modo que un minuto de audio ocupa muy poco. Y luego, foto o audio, se cifran igual que el texto, en la misma caja fuerte. Así que aunque tu foto sea de tu gato en pijama, por el camino nadie la puede ver.
+
+| # | Qué se ve | Rótulo |
+|---|---|---|
+| 3b.1 | Foto grande que se encoge al pasar por un embudo | «La comprime» |
+| 3b.2 | Comparación lado a lado: original frente a comprimida (zoom al detalle) | «Original · enviada» |
+| 3b.3 | Botón «HD» en la pantalla de envío (recreado) | «Opción HD» |
+| 3b.4 | Onda de voz que se convierte en números | «Audio: muy ligero» |
+| 3b.5 | Foto de un gato entrando en la caja fuerte | «También va cifrada 🔒» |
+
 ## BLOQUE 4 · Parada 3: el salto por el aire (2:45–3:45)
 
 > Los paquetes salen de tu móvil por el aire. Si estás en casa, en ondas de radio hasta el router del wifi. Si vas por la calle, hasta la antena de tu compañía, que puede estar en un tejado a cientos de metros. Esas ondas son de la misma familia que la luz, pero no las vemos, y viajan casi a trescientos mil kilómetros por segundo. Por eso este tramo, aunque parezca lo más lento, dura apenas unas milésimas. La antena no se queda tu mensaje: lo pasa enseguida a la red de cable de tu compañía, que ya va por fibra óptica.
@@ -91,6 +103,29 @@
 | 6.4 | Animación: el servidor mira la etiqueta, no abre la caja | «Solo ve a quién va» |
 | 6.5 | Calendario que pasa 30 días y el sobre desaparece | «Móvil apagado: espera 30 días» |
 | 6.6 | Contador gigante | «+100.000 millones de mensajes al día» |
+
+## BLOQUE 6b · ¿Y en un grupo? (nuevo, ≈1 min)
+
+> Ahora imagina que no escribes a un amigo, sino al grupo de la familia, con cuarenta personas. ¿Tu móvil manda cuarenta mensajes? No exactamente. Tu móvil cifra el mensaje una sola vez, con una llave que comparten todos los del grupo, y lo sube al servidor. Es el servidor quien hace las copias y se las reparte a cada uno de los cuarenta. Por eso escribir en un grupo grande no te gasta más batería ni más datos que escribir a una sola persona. Y, aun así, el servidor sigue sin poder leer nada: solo reparte cajas cerradas. Los grupos de WhatsApp pueden tener hasta mil veinticuatro personas. Imagina el servidor haciendo mil copias de tu «buenos días» con la foto de las flores… en menos de un segundo.
+
+| # | Qué se ve | Rótulo |
+|---|---|---|
+| 6b.1 | Grupo «Familia 👨‍👩‍👧‍👦» con muchos avatares | «40 personas» |
+| 6b.2 | Animación: el móvil sube una sola caja al servidor | «Tú lo envías 1 vez» |
+| 6b.3 | El servidor la copia en 40 cajas que salen en abanico | «El servidor lo reparte» |
+| 6b.4 | Contador hasta 1.024 | «Hasta 1.024 personas» |
+| 6b.5 | Mensaje «Buenos días 🌸» multiplicándose | — |
+
+## BLOQUE 6c · Lo que WhatsApp sí ve (nuevo, ≈1 min)
+
+> Ojo, que el cifrado protege lo que escribes, pero no todo. Para repartir tu mensaje, el servidor necesita saber cosas, igual que Correos necesita leer el sobre aunque no abra la carta. WhatsApp puede ver tu número, a quién escribes, cuándo y desde dónde te conectas, y desde qué teléfono. A eso se le llama metadatos. No sabe qué pone en tu mensaje, pero sí con quién hablas y a qué hora. Por eso, si te preocupa tu privacidad, merece la pena revisar los ajustes: quién ve tu foto de perfil, tu «última vez» o si estás en línea. Y una cosa más: el cifrado protege el viaje, pero si alguien coge tu móvil desbloqueado, lo lee todo. Así que el candado más importante… es el de tu pantalla.
+
+| # | Qué se ve | Rótulo |
+|---|---|---|
+| 6c.1 | Sobre cerrado con la dirección a la vista | «Ve el sobre, no la carta» |
+| 6c.2 | Lista de iconos: número, contacto, reloj, mapa, móvil | «Metadatos» |
+| 6c.3 | Pantalla de Ajustes → Privacidad (recreada) | «Revisa tu privacidad» |
+| 6c.4 | Móvil desbloqueado en una mesa, una mano lo coge | «El candado más importante 🔒» |
 
 ## BLOQUE 7 · Parada 6: cruzar el océano (5:50–7:05)
 
@@ -137,4 +172,4 @@
 
 ---
 
-**Fuentes:** WhatsApp, *Security Whitepaper* y blog del 5-abr-2016 (cifrado de extremo a extremo en todos los chats con el protocolo Signal; código de seguridad de 60 dígitos y QR); WhatsApp FAQ «Acerca de los ticks» (✓ enviado, ✓✓ entregado, ✓✓ azul leído) y «Información de los mensajes no entregados» (se borran del servidor a los 30 días); Meta, centro de datos de Luleå (Suecia, 2013, refrigeración con aire exterior); Mark Zuckerberg / Meta, 2020 (más de 100.000 millones de mensajes al día en WhatsApp); TeleGeography, *Submarine Cable FAQs* (más del 99 % del tráfico intercontinental; ≈1,4 millones de km; ≈2,5 cm en aguas profundas); Microsoft y Telxius, MAREA (Sopelana – Virginia Beach, 6.600 km, 2017); EllaLink (Sines – Fortaleza, 2021); velocidad de la luz en la fibra ≈200.000 km/s (≈5 vueltas a la Tierra por segundo). El tiempo de 0,4 s es orientativo: la latencia real Madrid–Buenos Aires ida y vuelta ronda los 200-250 ms.
+**Fuentes:** WhatsApp, *Security Whitepaper* y blog del 5-abr-2016 (cifrado de extremo a extremo en todos los chats con el protocolo Signal; código de seguridad de 60 dígitos y QR); WhatsApp, *Security Whitepaper* (grupos con «Sender Keys»: se cifra una vez y el servidor reparte las copias); WhatsApp, ayuda «Cómo enviar fotos y vídeos en HD» y límite de 1.024 participantes por grupo (2022); WhatsApp, Política de privacidad (datos de uso, conexión y dispositivo que sí recoge); WhatsApp FAQ «Acerca de los ticks» (✓ enviado, ✓✓ entregado, ✓✓ azul leído) y «Información de los mensajes no entregados» (se borran del servidor a los 30 días); Meta, centro de datos de Luleå (Suecia, 2013, refrigeración con aire exterior); Mark Zuckerberg / Meta, 2020 (más de 100.000 millones de mensajes al día en WhatsApp); TeleGeography, *Submarine Cable FAQs* (más del 99 % del tráfico intercontinental; ≈1,4 millones de km; ≈2,5 cm en aguas profundas); Microsoft y Telxius, MAREA (Sopelana – Virginia Beach, 6.600 km, 2017); EllaLink (Sines – Fortaleza, 2021); velocidad de la luz en la fibra ≈200.000 km/s (≈5 vueltas a la Tierra por segundo). El tiempo de 0,4 s es orientativo: la latencia real Madrid–Buenos Aires ida y vuelta ronda los 200-250 ms.

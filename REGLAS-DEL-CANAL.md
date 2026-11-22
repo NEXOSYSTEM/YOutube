@@ -12,6 +12,7 @@ Reglas fijadas por Luis. Se aplican a todos los vídeos (largos y Shorts). Últi
 3b. **Avisar siempre de en qué punto está el trabajo.** `ESTADO.md`, en la raíz del proyecto, se reescribe en cada paso y cada 30 s con la fase, el vídeo, el %, la hora de inicio, la hora estimada de fin, la última actualización y el estado (EN MARCHA, TERMINADO, ERROR o ESPERANDO A LUIS). macOS muestra una notificación al terminar cada vídeo y si algo falla. Claude avisa al empezar y al terminar cada fase larga (con hora estimada) y cada 15 min mientras siga en marcha.
 4. **Datos verificados:** antes del render se comprueban los datos dudosos del guion. Si alguno no tiene fuente fiable, se propone otra frase a Luis.
 4b. **REGLA GLOBAL: documentar antes de compactar** (Luis, 2026-11-22). Antes de compactar el contexto, y al cerrar cada tarea larga, se actualizan el contexto y los documentos en los dos sitios: GitHub (repo NEXOSYSTEM/YOutube, por PR) y cerebro (bóveda Obsidian `/Users/luis/Desktop/Youtube/Youtube`). Vale para todos los hilos y agentes (Claude, Antigravity…).
+4c. **DURACIÓN DE LOS LARGOS: de 6 a 8 min como máximo** (Luis, 2026-11-22). Sustituye a los 8-12 min de antes. A x1,25 la voz va a ≈210 palabras/min, así que un guion largo tiene entre ≈1.250 y ≈1.650 palabras narradas. Si sale más largo, se recorta; si sale más corto de 6 min, se amplía. Los Shorts siguen en ≈60 s.
 
 ## Voz
 

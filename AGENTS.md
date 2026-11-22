@@ -17,3 +17,4 @@ Reglas obligatorias (detalle en `REGLAS-DEL-CANAL.md`):
 11. Nunca subas al repo `credenciales/`, `herramientas/claves-stock.txt`, tokens ni material pesado.
 12. Planos con IA: Veo (Gemini) solo para escenas concretas; reglas, cuota y registro en `docs/veo.md`. Archivar cada clip con `herramientas/veo/archivar.py`.
 13. **REGLA GLOBAL (Luis, 2026-11-22): antes de compactar el contexto**, y al cerrar cada tarea larga, actualiza el contexto y los documentos en GitHub (este repo, por PR) y en cerebro (bóveda Obsidian `/Users/luis/Desktop/Youtube/Youtube`).
+14. **DURACIÓN DE LOS LARGOS: de 6 a 8 min como máximo** (Luis, 2026-11-22). Sustituye a los 8-12 min de antes. A x1,25 la voz va a ≈210 palabras/min, así que un guion largo tiene entre ≈1.250 y ≈1.650 palabras narradas. Si sale más largo, se recorta; si sale más corto de 6 min, se amplía. Los Shorts siguen en ≈60 s.

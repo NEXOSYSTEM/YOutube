@@ -20,7 +20,7 @@ Curiosidades del mundo que hacen decir «¿en serio?»: naturaleza extrema, luga
 1. Naturaleza extrema · 2. Lugares imposibles · 3. Historia insólita · 4. Tu cuerpo y tu mente · 5. Ciencia y espacio fácil
 
 ## Formato
-- **Largo (8-12 min, martes 18:00 hora de España):** gancho de 15-30 s → intro lupa de 8 s → lista o historia con 2 reenganches («y el número 1 te va a sorprender») → cierre con pregunta para comentarios.
+- **Largo (6-8 min como máximo, martes 18:00 hora de España):** gancho de 15-30 s → intro lupa de 8 s → lista o historia con 2 reenganches («y el número 1 te va a sorprender») → cierre con pregunta para comentarios.
 - **Shorts (3/semana, 30-55 s):** gancho escrito desde el primer fotograma, sin intro, logo pequeño arriba a la izquierda, subtítulos palabra a palabra. 2 sacados del largo y 1 de prueba de tema nuevo.
 - **Títulos:** máx. 60 caracteres, número o pregunta, una palabra fuerte (PELIGROSO, PROHIBIDO, IMPOSIBLE…). Nada en mayúsculas enteras.
 - **Miniaturas:** un sujeto grande y entero, 2-3 palabras como mucho, color de marca, cara de sorpresa solo si es real (nada de caras falsas de IA).
