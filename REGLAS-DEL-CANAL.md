@@ -13,6 +13,7 @@ Reglas fijadas por Luis. Se aplican a todos los vídeos (largos y Shorts). Últi
 4. **Datos verificados:** antes del render se comprueban los datos dudosos del guion. Si alguno no tiene fuente fiable, se propone otra frase a Luis.
 4b. **REGLA GLOBAL: documentar antes de compactar** (Luis, 2026-11-22). Antes de compactar el contexto, y al cerrar cada tarea larga, se actualizan el contexto y los documentos en los dos sitios: GitHub (repo NEXOSYSTEM/YOutube, por PR) y cerebro (bóveda Obsidian `/Users/luis/Desktop/Youtube/Youtube`). Vale para todos los hilos y agentes (Claude, Antigravity…).
 4c. **DURACIÓN DE LOS LARGOS: de 6 a 8 min como máximo** (Luis, 2026-11-22). Sustituye a los 8-12 min de antes. A x1,25 la voz va a ≈210 palabras/min, así que un guion largo tiene entre ≈1.250 y ≈1.650 palabras narradas. Si sale más largo, se recorta; si sale más corto de 6 min, se amplía. Los Shorts siguen en ≈60 s.
+4d. **Llamada a suscribirse con animación** (Luis, 2026-11-22). Todos los vídeos llevan «Suscríbete para ver más contenido y activa la campanita» con su animación (botón «SUSCRIBIRSE» que se pulsa, pasa a «SUSCRITO» y una campana que suena), en un componente Remotion reutilizable. En los largos sale dos veces: justo después de la intro de la lupa (solo rótulo y sonido) y en el cierre, narrada. En los Shorts, una versión de 2 s al final, sin voz nueva.
 
 ## Voz
 
