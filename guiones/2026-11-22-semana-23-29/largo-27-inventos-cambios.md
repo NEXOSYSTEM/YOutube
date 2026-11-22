@@ -1,4 +1,4 @@
-# Largo · Mié 25-nov 18:00 · Historia · 10 inventos que se descubrieron POR ACCIDENTE · CAMBIOS
+# Largo · Vie 27-nov 18:00 · Historia · 10 inventos que se descubrieron POR ACCIDENTE · CAMBIOS
 
 *El guion completo sigue en `guiones/2026-11-19-lote-01/largo-25-inventos-accidente.md`. Encaja con «33 inventos que arruinaron el mundo sin querer» (11,6× la media de su canal). Solo cambia esto:*
 
@@ -20,7 +20,7 @@
 
 ## 4. Enlaces entre piezas
 
-- **Pantalla final:** el Short de la guerra de los emúes (26-nov) y el largo de los países que ya no existen (29-nov), cuando estén publicados.
+- **Pantalla final:** el Short de la guerra de los emúes (27-nov) y el largo de los países que ya no existen (29-nov), cuando estén publicados.
 - **Descripción (1.ª línea):** ¿Cuál de estos has usado hoy? 👇
 - **Capítulos:** uno por invento, según los tiempos del montaje.
 

@@ -1,4 +1,4 @@
-# Short · Mar 24-nov 18:00 · Geografía · 5 lugares de la Tierra que parecen OTRO PLANETA 🪐
+# Short · Mié 25-nov 18:00 · Geografía · 5 lugares de la Tierra que parecen OTRO PLANETA 🪐
 
 *Sale del Short «Parece Marte…» (lote 01). Pasa de 3 a 5 lugares, y entran 2 de nuestro público: Río Tinto (España) y Atacama (Chile).*
 

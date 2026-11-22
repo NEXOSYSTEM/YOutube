@@ -1,4 +1,4 @@
-# Short · Lun 23-nov 18:00 · Animales · Los 5 pájaros más PELIGROSOS del mundo 🦅⚠️
+# Short · Mar 24-nov 18:00 · Animales · Los 5 pájaros más PELIGROSOS del mundo 🦅⚠️
 
 *Sale del Short del casuario (lote 01). Ahora es un top 5 en el formato que más engancha del estudio: «Los 5 [animal] más [adjetivo] del mundo».*
 
@@ -24,4 +24,4 @@
 | 6 | 0:51–1:04 | Casuario entero en la selva; gráfico de la uña a escala; casuario girando la cabeza | «#1 · CASUARIO» **12 cm** «Florida, 2019» | `cassowary walking`, `cassowary rainforest` |
 | 7 | 1:04–1:10 | Casuario entero de perfil, plano quieto | «¿“No puede ser” o “Ya lo sabía”? 👇» | `cassowary` |
 
-**Fuentes:** cisne: muerte de Anthony Hensley, Des Plaines (Illinois), abril de 2012 (Chicago Tribune / AP). Búho real: ataques en Purmerend (Países Bajos), 2022 (NOS / BBC). Emú: Australian Museum (≈50 km/h; ver Short del 26). Avestruz: San Diego Zoo Wildlife Alliance (100-160 kg; garra de unos 10 cm en el dedo mayor). Casuario: Kofron (2003), *Memoirs of the Queensland Museum*; San Diego Zoo (uña de 12 cm); muerte de Marvin Hajos, Gainesville (Florida), 12-abr-2019.
+**Fuentes:** cisne: muerte de Anthony Hensley, Des Plaines (Illinois), abril de 2012 (Chicago Tribune / AP). Búho real: ataques en Purmerend (Países Bajos), 2022 (NOS / BBC). Emú: Australian Museum (≈50 km/h; ver Short del 27). Avestruz: San Diego Zoo Wildlife Alliance (100-160 kg; garra de unos 10 cm en el dedo mayor). Casuario: Kofron (2003), *Memoirs of the Queensland Museum*; San Diego Zoo (uña de 12 cm); muerte de Marvin Hajos, Gainesville (Florida), 12-abr-2019.

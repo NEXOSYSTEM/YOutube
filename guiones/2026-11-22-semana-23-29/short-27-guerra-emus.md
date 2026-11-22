@@ -1,6 +1,6 @@
-# Short · Jue 26-nov 18:00 · Historia · La guerra que Australia PERDIÓ contra unos pájaros 🪖
+# Short · Vie 27-nov 18:00 · Historia · La guerra que Australia PERDIÓ contra unos pájaros 🪖
 
-*Sale del Short de los emúes (lote 01), que era para el 25. Pasa al 26 y se alarga a ≈65 s con la segunda ofensiva y el final.*
+*Sale del Short de los emúes (lote 01), que era para el 25. Pasa al viernes 27, el mismo día que el largo de inventos (los dos de historia) y se alarga a ≈65 s con la segunda ofensiva y el final.*
 
 | Campo | Valor |
 |---|---|

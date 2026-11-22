@@ -1,4 +1,4 @@
-# Largo · Vie 27-nov 18:00 · Informática · Qué pasa en 1 segundo cuando envías un WhatsApp
+# Largo · Lun 23-nov 18:00 · Informática · Qué pasa en 1 segundo cuando envías un WhatsApp
 
 *Escrito el 22/11/2026 · 16:9 · Voz ElevenLabs «Thimsen» (Flash v2.5) x1,25. Primer largo de la línea «explicado fácil»: en el estudio de engagement, informática tiene poca oferta en español y el engagement más alto (3,4 % en largos frente a 0,9 % de media). Referentes: «Lo que sucede cuando envías un mensaje» y «Todo sobre direcciones IP» (17× la media de su canal).*
 
@@ -133,7 +133,7 @@
 |---|---|---|
 | 10.1 | Mapa con el recorrido completo y las 7 paradas | — |
 | 10.2 | Móvil con el doble check azul | «¿Desde qué país me ves?» |
-| 10.3 | Pantalla final con logo y suscripción + Short del 28 | — |
+| 10.3 | Pantalla final con logo y suscripción + Short del cable submarino (mismo día) | — |
 
 ---
 

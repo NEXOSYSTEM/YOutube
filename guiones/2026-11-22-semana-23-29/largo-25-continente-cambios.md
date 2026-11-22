@@ -1,4 +1,4 @@
-# Largo · Lun 23-nov 18:00 · Animales · El animal más PELIGROSO de cada continente · CAMBIOS
+# Largo · Mié 25-nov 18:00 · Animales · El animal más PELIGROSO de cada continente · CAMBIOS
 
 *El guion completo sigue en `guiones/2026-11-19-lote-01/largo-23-animal-peligroso-continente.md`. Ya encaja con el patrón que más rinde en largos («el … de cada …», con mapa). Solo cambia esto:*
 
@@ -22,8 +22,8 @@
 
 ## 4. Enlaces entre piezas
 
-- **Pantalla final:** el Short del hipopótamo (25-nov) y el de los pájaros (23-nov).
-- **Comentario fijado:** «🦛 ¿Por qué el hipopótamo no es el más mortal de África? Aquí: [Short del 25]» (se pone el 25, cuando esté publicado).
+- **Pantalla final:** el Short del hipopótamo (26-nov) y el de los pájaros (24-nov).
+- **Comentario fijado:** «🦛 ¿Por qué el hipopótamo no es el más mortal de África? Aquí: [Short del 26]» (se pone el 26, cuando esté publicado).
 - **Descripción (1.ª línea):** ¿Cuál es el animal más peligroso de tu país? 👇
 - **Capítulos:** uno por continente (0:00 Gancho · 0:50 Antártida · 2:00 Oceanía · 3:05 Europa · 4:05 Norteamérica · 5:00 Sudamérica · 6:10 Asia · 7:25 África · 8:40 Cierre). Se ajustan a los tiempos reales tras el montaje.
 

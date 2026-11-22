@@ -1,12 +1,12 @@
-# Short · Mié 25-nov 18:00 · Animales · Si un hipopótamo BOSTEZA, aléjate 🦛
+# Short · Jue 26-nov 18:00 · Animales · Si un hipopótamo BOSTEZA, aléjate 🦛
 
-*Sale del Short del hipopótamo (lote 01), que era para el 24. Pasa al 25 para no repetir animales dos días seguidos, se alarga a ≈60 s y lleva al largo del 23 (el animal más peligroso de cada continente).*
+*Sale del Short del hipopótamo (lote 01), que era para el 24. Pasa al jueves 26, se alarga a ≈60 s y lleva al largo del miércoles 25 (el animal más peligroso de cada continente).*
 
 | Campo | Valor |
 |---|---|
 | **Título** | Si un hipopótamo BOSTEZA, aléjate 🦛 |
 | **Duración** | ≈60 s · vertical 9:16 |
-| **Estilo** | «No hagas esto» con vídeo real (hay mucho de hipopótamos; sin Veo). Rótulo final y comentario fijado con el enlace al largo del 23 |
+| **Estilo** | «No hagas esto» con vídeo real (hay mucho de hipopótamos; sin Veo). Rótulo final y comentario fijado con el enlace al largo del 25 |
 | **Miniatura** | Hipopótamo entero con la boca abierta del todo. Una palabra grande en blanco: **CORRE** |
 | **Descripción (1.ª línea)** | ¿Lo sabías? Comenta «No puede ser» o «Ya lo sabía» 👇 |
 

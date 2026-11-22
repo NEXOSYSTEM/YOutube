@@ -1,6 +1,6 @@
-# Short · Sáb 28-nov 18:00 · Informática · Tu WhatsApp cruza el OCÉANO por un cable 🌊📱
+# Short · Lun 23-nov 18:00 · Informática · Tu WhatsApp cruza el OCÉANO por un cable 🌊📱
 
-*Sale del largo del 27 y lleva a él. Formato «explicado fácil», el de más engagement en informática.*
+*Sale del largo de WhatsApp y lleva a él (se publican el mismo día, lunes 23, para abrir el bloque tecnológico). Formato «explicado fácil», el de más engagement en informática.*
 
 | Campo | Valor |
 |---|---|
