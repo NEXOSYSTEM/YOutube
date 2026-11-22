@@ -2,7 +2,7 @@
 
 *Escrito el 22/11/2026. Sale del [estudio de engagement](../../investigacion/2026-11-22-engagement/2026-11-22-engagement-nicho.md) y de las [estadísticas del canal](../../investigacion/2026-11-22-engagement/2026-11-22-estadisticas-canal.md). Todo a las 18:00 (hora de España), como está aprobado. Voz ElevenLabs «Thimsen» x1,25 · subtítulos siempre.*
 
-**Estado: APROBADO por Luis el 22-nov (17:42). Cambiado a SEMANA ENTERA DE TECNOLOGÍA (Luis, 22-nov, 18:51: «empieza esta semana con tecnología para ver cómo funciona y sacamos métricas»). Largos de 6 a 8 min como máximo (Luis, 22-nov). Guiones nuevos del 24 al 29 pendientes de que Luis los vea.** No se sube nada hasta que Luis diga «sube».
+**Estado: APROBADO por Luis el 22-nov (17:42). Cambiado a SEMANA ENTERA DE TECNOLOGÍA (Luis, 22-nov, 18:51: «empieza esta semana con tecnología para ver cómo funciona y sacamos métricas»). Largos de 6 a 8 min como máximo (Luis, 22-nov).** Guiones del 24 al 29 aprobados por Luis el 22-nov (19:00). Cada pieza se sube completa y programada a las 18:00 de su día en cuanto pasa la revisión (regla 2).
 
 ## Qué cambia respecto al lote 01
 
