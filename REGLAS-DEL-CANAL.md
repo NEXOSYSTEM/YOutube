@@ -30,6 +30,7 @@ Reglas fijadas por Luis. Se aplican a todos los vídeos (largos y Shorts). Últi
 6c. **El plano de presentación de cada animal** (rótulo «#N» y ficha) usa metraje real de esa especie o su foto, nunca vídeo de otro animal.
 6d. **Más animal que relleno** (Luis, 2026-11-18): en cada vídeo el animal del tema sale más tiempo que cualquier otro plano. Si no hay vídeo libre de la especie, mandan SUS fotos (con movimiento y entero), no vídeos de entorno; el entorno (río, arrecife, playa) solo como apoyo puntual. `comprobar.py` mide el % de animal en pantalla (objetivo ≥ 50 %; de momento avisa, no detiene).
 7. **Objetivo: ≥ 70 % de vídeo** en el tiempo de planos (sin contar los gráficos propios: mapas, esquemas, contadores).
+7b. **Excepción para historia** (Luis, 2026-11-22): en piezas de historia sin vídeo libre de la época, las fotos de archivo del propio tema (con movimiento) cuentan como vídeo, igual que las fotos del animal en la regla 6d.
 8. **Licencias:** solo CC0, dominio público (NOAA, USFWS, NPS, USGS, NASA…), CC BY, CC BY-SA (marcado «BY-SA», solo si no hay alternativa), Mixkit Free License, y Pexels/Pixabay si hay clave. Nunca NC ni ND, ni clips de YouTube o TikTok. Todo queda en `material/<semana>/creditos.md`.
 9. **Música y efectos:** sintetizados por código (`montaje/scripts/sonido_*.py`), sin licencias de terceros. Otra opción es la Biblioteca de audio de YouTube.
 
