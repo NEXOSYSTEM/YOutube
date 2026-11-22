@@ -5,7 +5,7 @@ Responde siempre en **español**. Proyecto del canal de YouTube «Alucínate con
 Reglas obligatorias (detalle en `REGLAS-DEL-CANAL.md`):
 
 1. Enseña siempre los guiones a Luis antes de producir un vídeo.
-2. **No subas nada a YouTube** hasta que Luis lo diga.
+2. **Subida directa y programada** (Luis, 2026-11-22): con el guion aprobado, sube cada pieza en cuanto pase `comprobar.py`, completa (título, descripción, etiquetas, miniatura, subtítulos, créditos fijados, marca de IA si la lleva) y programada a las 18:00 de su día con `subida/programar.py`. Máx. 4 subidas al día. Sin guion aprobado, no se sube nada. Detalle en REGLAS-DEL-CANAL.md, regla 2.
 3. Clips de vídeo del tema antes que fotos (≥ 70 % de vídeo).
 4. Animales siempre completos, de cabeza a cola; primeros planos solo si el guion habla de esa parte.
 5. Voz: ElevenLabs «Thimsen» (español de España; Qwen3-TTS «ryan» de reserva), x1,25 real, revisada con Whisper.
