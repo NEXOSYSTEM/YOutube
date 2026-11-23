@@ -2,6 +2,10 @@
 
 *El guion completo sigue en `guiones/2026-11-19-lote-01/largo-25-inventos-accidente.md`. Encaja con «33 inventos que arruinaron el mundo sin querer» (11,6× la media de su canal). Solo cambia esto:*
 
+## 0. Duración (23-nov)
+
+- El guion completo tiene ≈1.410 palabras narradas, que a x1,25 dan ≈6,8 min. Ya cumple la norma de largos de 6 a 8 min: no hace falta recortarlo.
+
 ## 1. Título
 
 - **Principal:** 10 inventos que se descubrieron POR ACCIDENTE (seguro que hoy has usado 3)

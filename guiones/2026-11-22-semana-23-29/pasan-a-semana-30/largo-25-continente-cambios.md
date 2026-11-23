@@ -2,6 +2,10 @@
 
 *El guion completo sigue en `guiones/2026-11-19-lote-01/largo-23-animal-peligroso-continente.md`. Ya encaja con el patrón que más rinde en largos («el … de cada …», con mapa). Solo cambia esto:*
 
+## 0. Duración (23-nov)
+
+- El guion completo tiene ≈1.430 palabras narradas, que a x1,25 dan ≈6,8 min. Ya cumple la norma de largos de 6 a 8 min: no hace falta recortarlo.
+
 ## 1. Título
 
 - **Principal:** El animal más PELIGROSO de cada continente (el de Europa no te lo esperas)
